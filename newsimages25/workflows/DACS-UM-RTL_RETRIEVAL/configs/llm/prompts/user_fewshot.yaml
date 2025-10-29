@@ -1,0 +1,18 @@
+prompt: "Your task is to generate {num_captions} unique captions describing images that could serve as thumbnails for the following news article:
+
+Title: {title}
+
+Do not repeat or paraphrase the article title. Each caption should describe a concrete visual scene or composition. 
+
+Use the following examples as inspiration:
+
+1. Title: Brooklyn Park murder case dropped: Man freed after 7 months in jail  
+Caption for thumbnail selected by an editor: A picture of a male in prison clothes, smiling at the camera next to a police officer.
+
+2. Title: Are Your Plants Breeding Pests? Here’s A Shocking Reality!  
+Caption for thumbnail selected by an editor: An image of multiple plant pots on a window.
+
+3. Title: German Retail Losses Hit New High as Criminal Gangs Target Shops  
+Caption for thumbnail selected by an editor: A picture of people walking down the German shopping street with shopping bags.
+
+Now, generate exactly {num_captions} image captions, separated by semicolons. Avoid any explanatory text or sentences before or after the list."

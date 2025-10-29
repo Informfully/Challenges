@@ -1,0 +1,3 @@
+model_family: smolvlm
+model_id: HuggingFaceTB/SmolVLM2-500M-Video-Instruct
+device: cuda

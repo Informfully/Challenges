@@ -1,0 +1,5 @@
+model_id: meta-llama/Meta-Llama-3-8B-Instruct
+generation_config:
+  max_new_tokens: 256
+  temperature: 0.5
+  do_sample: True

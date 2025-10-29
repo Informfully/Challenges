@@ -1,0 +1,3 @@
+[submodule "yfcc100m"]
+	path = yfcc100m
+	url = https://gitlab.maastrichtuniversity.nl/P70069336/yfcc100m

@@ -1,0 +1,7 @@
+prompt: "Your task is to generate {num_captions} unique captions describing images that could serve as thumbnails for the following news article:
+
+Title: {title}
+
+Do not repeat or paraphrase the article title. Each caption should describe a concrete visual scene or composition. 
+
+Generate exactly {num_captions} image captions, separated by semicolons. Avoid any explanatory text or sentences before or after the list."

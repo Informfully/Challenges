@@ -1,0 +1,3 @@
+model_family: qwen2_vl
+model_id: Qwen/Qwen2-VL-7B-Instruct
+device: cuda

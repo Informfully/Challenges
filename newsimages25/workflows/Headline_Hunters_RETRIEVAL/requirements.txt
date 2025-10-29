@@ -1,0 +1,10 @@
+torch
+transformers
+requests
+beautifulsoup4
+pillow
+numpy
+scikit-learn
+tqdm
+faiss-cpu
+lxml

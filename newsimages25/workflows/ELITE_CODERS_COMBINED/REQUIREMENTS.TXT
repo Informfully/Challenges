@@ -1,0 +1,25 @@
+# ==============================
+# Requirements for MediaEval 2025
+# Image Retrieval (CLIP + FAISS)
+# Image Generation (Stable Diffusion XL)
+# ==============================
+
+# Core
+torch>=2.0.0        # PyTorch (CPU by default, install CUDA version manually if GPU is available)
+torchvision         # For image tensor utilities
+
+# Data handling
+pandas              # CSV and dataset handling
+numpy               # Numerical operations
+
+# Image processing
+Pillow              # Image resize, save, metadata
+
+# Retrieval pipeline
+faiss-cpu           # FAISS similarity search (use 'faiss-gpu' if you have a GPU)
+git+https://github.com/openai/CLIP.git   # OpenAI CLIP for multimodal embeddings
+
+# Generation pipeline
+diffusers>=0.21.0   # HuggingFace Diffusers for Stable Diffusion XL
+transformers        # Tokenizer & model support for Diffusers
+accelerate          # Efficient model execution on GPU/CPU
