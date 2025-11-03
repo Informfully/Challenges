@@ -1,4 +1,4 @@
-# NewsImages at MediaEval 2025
+# Image Recommendation Workflows
 
 Collected workflows for all [submissions](https://github.com/Informfully/Challenges/tree/main/newsimages25/images).
 Regular papers submitted images to the benchmark, whereas insight papers did not.
