@@ -133,3 +133,7 @@ class RUNS_LARGE(Enum):
     VisionX_GEN_SD = 24                             # Updated submission
     Organizers_RET_BASELINE = 22                    # Baseline
 ```
+
+Please note that only the image submissions that were part of the user study are shared in this repository (30 images for subtask 1 and 20 umages for subtask 2).
+The complete archive of all images (200k+) must be downloaded seperately.
+It is available on the [UZH file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6/).
