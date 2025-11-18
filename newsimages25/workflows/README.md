@@ -3,10 +3,10 @@
 Collected workflows for all [submissions](https://github.com/Informfully/Challenges/tree/main/newsimages25/images).
 Regular papers submitted images to the benchmark, whereas insight papers did not.
 
-Folders ending with "RETRIEVAL" contain workflows for image retrieval and the "GENERATION" contain generated images respectively.
-"COMBINED" include both approaches in one workflow.
+Folders ending with "RETRIEVAL" contain workflows for image retrieval, and the "GENERATION" folders contain generated images, respectively.
+"COMBINED" includes both approaches in one workflow.
 
-For the most up-to-date versions of the repositoriey, pleas visit the original code repositories linked below:
+For the most up-to-date versions of the repositories, please visit the original code repositories linked below:
 
 | Team | Paper | Workflow | Codebase |
 | - | - | - | - |
