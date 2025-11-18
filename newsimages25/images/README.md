@@ -1,6 +1,6 @@
 # NewsImages Submission Overview
 
-*Overview generated on the basis of the evaluaiton script.*
+*Overview generated on the basis of the evaluation script.*
 
 ## Participating Teams
 
@@ -53,7 +53,7 @@ IDS_LARGE = [534, 2013, 2411, 3310, 4620,
 
 ```python
 # Challenge Subtask SMALL
-# 39 runs by 12 teams (exlc. baseline)
+# 39 runs by 12 teams (excl. baseline)
 # Ordering of the original survey preserved
 class RUNS_SMALL(Enum):
     AFourP_RET_OPENCLIP_CLIPRERANK = 31              # Updated submission
@@ -102,7 +102,7 @@ class RUNS_SMALL(Enum):
 
 ```python
 # Challenge Subtask LARGE
-# 26 runs by 9 teams (exlc. baseline)
+# 26 runs by 9 teams (excl. baseline)
 # Ordering of the original survey preserved
 class RUNS_LARGE(Enum):
     AFourP_RET_OPENCLIP_CLIPRERANK = 1
@@ -134,6 +134,6 @@ class RUNS_LARGE(Enum):
     Organizers_RET_BASELINE = 22                    # Baseline
 ```
 
-Please note that only the image submissions that were part of the user study are shared in this repository (30 images for subtask 1 and 20 umages for subtask 2).
-The complete archive of all images (200k+) must be downloaded seperately.
+Please note that only the image submissions that were part of the user study are shared in this repository (30 images for subtask 1 and 20 images for subtask 2).
+The complete archive of all images (200k+) must be downloaded separately.
 It is available on the [UZH file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6).
