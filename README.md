@@ -112,10 +112,10 @@ Furthermore, we ask each group to include and refer to the following papers in t
 
   ```tex
   @inproceedings{heitz2025newsimages,
-    title={NewsImages in MediaEval 2025 – Comparing Image Retrieval and Generation for News Articles},
-    author={Lucien Heitz and Luca Rossetto and Benjamin Kille and Andreas Lommatzsch and Mehdi Elahi and Duc-Tien Dang-Nguyen},
-    booktitle={Working Notes Proceedings of the MediaEval 2025 Workshop},
-    year={2025}
+  title={NewsImages in MediaEval 2025 – Comparing Image Retrieval and Generation for News Articles},
+  author={Heitz, Lucien and Rossetto, Luca and Kille, Benjamin and Lommatzsch, Andreas and Elahi, Mehdi and Dang-Nguyen, Duc-Tien},
+  booktitle={Working Notes Proceedings of the MediaEval 2025 Workshop},
+  year={2025}
   }
   ```
 
@@ -123,10 +123,10 @@ Furthermore, we ask each group to include and refer to the following papers in t
 
   ```tex
   @inproceedings{heitz2024empirical,
-    title={An Empirical Exploration of Perceived Similarity between News Article Texts and Images},
-    author={Lucien Heitz and Abraham Bernstein and Luca Rossetto},
-    booktitle={Working Notes Proceedings of the MediaEval 2023 Workshop},
-    year={2024}
+  title={An Empirical Exploration of Perceived Similarity between News Article Texts and Images},
+  author={Heitz, Lucien and Rossetto, Luca and Bernstein, Abraham},
+  booktitle={Working Notes Proceedings of the MediaEval 2023 Workshop},
+  year={2024}
   }
   ```
 
