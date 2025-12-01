@@ -1,6 +1,17 @@
 # NewsImages Submission Overview
 
-*Overview generated on the basis of the evaluation script.*
+Please note that only the image submissions that were part of the user study are shared in this repository (30 images for subtask 1 and 20 images for subtask 2).
+The complete archive of all images (200k+) must be downloaded separately.
+It is available on the [UZH file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6) and structured as follows:
+
+* **newsimages_25_v1.3.zip**: 8,500 article titles with images from GDELT (this is the final challenge dataset shared with participants)
+* **SMALL_GROUPED_BY_ARTICLE**: 30 articles, with 39 images each (group submissions for the small subtask 1, all featured in the online evaluation)
+* **LARGE_GROUPED_BY_ARTICLE**: 20 articles, with 26 images each (group submissions for the large subtask 2, all featured in the online evaluation)
+* **SMALL_GROUPED_BY_TEAM**: 39 group submissions, each covering the 30 images from them small subtask 1 (more or less identical to SMALL_GROUPED_BY_ARTICLE)
+* **LARGE_GROUPED_BY_TEAM**: 26 group submissions, each covering up to 8,500 images from the large subtask 2 (contains everything from LARGE_GROUPED_BY_ARTICLE as well as the remaining 8,450 images not featured in the evaluation)
+
+*Overview of participating teams and submitted runs.
+Generated on the basis of the evaluation script.*
 
 ## Participating Teams
 
@@ -133,7 +144,3 @@ class RUNS_LARGE(Enum):
     VisionX_GEN_SD = 24                             # Updated submission
     Organizers_RET_BASELINE = 22                    # Baseline
 ```
-
-Please note that only the image submissions that were part of the user study are shared in this repository (30 images for subtask 1 and 20 images for subtask 2).
-The complete archive of all images (200k+) must be downloaded separately.
-It is available on the [UZH file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6).
