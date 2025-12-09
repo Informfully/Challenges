@@ -85,8 +85,9 @@ The average rank of team submissions across the featured item pool then determin
 As part of the challenge submission, each team is required to write a separate **Working Notes Paper** that documents and outlines their approach.
 Please look at the [online paper template](https://drive.google.com/drive/folders/1DNhxIeACfsmg6rrdgQZ22BbRtYE8ioYI) for more information.
 
-We encourage open and reproducible science and ask each team to share their codebase and workflows.
-Please use the examples in the [designated folder](https://github.com/Informfully/Challenges/tree/main/newsimages25/workflows) to structure your code and then make a pull request.
+We encourage open and reproducible science.
+We ask each team to share their codebase and workflows.
+Please use the examples in the [designated folder](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows) to structure your code and make a pull request.
 
 Furthermore, we ask each group to include and refer to the following papers in their Working Notes Paper:
 
