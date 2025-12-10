@@ -23,7 +23,7 @@ The challenge data contains a CSV with the following data on news articles:
 | article_url | Original URL of the news article. |
 | article_title | Title of the news article (may include lead). |
 | article_tags | Automatically generated tags for the main article text/body. |
-| image_id | ID of news image. |
+| image_id | ID of news image (we provide a copy of the image). |
 | image_url | Original URL of the news image. |
 
 Furthermore, a folder 'newsimages' containing a copy of all news images is included.

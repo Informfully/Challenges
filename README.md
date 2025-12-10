@@ -23,7 +23,7 @@ The challenge data contains a CSV with the following data on news articles:
 | article_url | Original URL of the news article. |
 | article_title | Title of the news article (may include lead). |
 | article_tags | Automatically generated tags for the main article text/body. |
-| image_id | ID of news image. |
+| image_id | ID of news image (we provide a copy of the image). |
 | image_url | Original URL of the news image. |
 
 Furthermore, a folder 'newsimages' containing a copy of all news images is included.
@@ -106,7 +106,7 @@ Please look at the [online paper template](https://drive.google.com/drive/folder
 
 We encourage open and reproducible science.
 We ask each team to share their codebase and workflows.
-Please use the examples in the [designated folder](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows) to structure your code and make a pull request.
+Please use the examples in the [designated folder](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows) to structure your code and make a pull request to contriubte your workflow.
 
 Furthermore, we ask each group to include and refer to the following papers in their Working Notes Paper:
 
