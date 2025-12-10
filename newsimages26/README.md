@@ -9,9 +9,8 @@ Upon successful registration, the participants are given a collection of 8,500 n
 Given a randomly selected article, the goal is to build a pipeline that combined image retrieval and image generation techniques to provide a **fitting** image recommendation for a given news article text.
 There will be a crowdsourced online event where all participating teams take part in rating the submitted image recommendations using a 5-point Likert scale.
 
-The winning team is determined by the **highest average image rating** for the articles within the selected article pool.
-The final evaluation event may only make use of subsets of the overall pool that was shared with participating teams.
-The relevant article IDs for the final evaluation will be communicated separately via email to all **registered groups**, together with the information on where to submit your results (see deadlines below).
+The winning team is determined by the **highest average image rating** for the articles within the evaluation dataset.
+This evaluation dataset will be shared with all **registered groups**, together with the information on where to submit your results (see deadlines below).
 
 ## Data Overview
 
@@ -87,7 +86,7 @@ Please look at the [online paper template](https://drive.google.com/drive/folder
 
 We encourage open and reproducible science.
 We ask each team to share their codebase and workflows.
-Please use the examples in the [designated folder](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows) to structure your code and make a pull request.
+Please use the examples in the [designated folder](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows) to structure your code and make a pull request to contriubte your workflow.
 
 Furthermore, we ask each group to include and refer to the following papers in their Working Notes Paper:
 
@@ -116,10 +115,12 @@ Furthermore, we ask each group to include and refer to the following papers in t
 ## Deadline Summary (TBD)
 
 * Challenge announcement: January
+* Release development dataset: January
+* Release test dataset: April
 * Online evaluation: May (online)
 * Evaluation feedback: May (AoE)
 * Working Notes Paper submission: May*
-* Review deadline: May**
+* Review deadline: June**
 * Camera-ready deadline: June (AoE).
 * MediaEval workshop: June (more information on the [registration website](TBD), in-person or online attendance required).
 
