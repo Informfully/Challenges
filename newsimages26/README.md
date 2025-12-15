@@ -1,12 +1,12 @@
 # NewsImages at MediaEval 2026
 
 README file for the data overview and expected submission of the NewsImages Challenge at MediaEval 2026.
-Please see the official [MediaEval 2026 website](TBD) for the full task description and the event registration.
+Please refer to the official [MediaEval 2026 website](TBD) for the full task description and event registration details.
 
 ## Task Summary
 
 Upon successful registration, the participants are given a collection of 8,500 news articles with images (the article text is in English, from [GDELT](https://www.gdeltproject.org).
-Given a randomly selected article, the goal is to build a pipeline that combined image retrieval and image generation techniques to provide a **fitting** image recommendation for a given news article text.
+Given a randomly selected article, the goal is to build a pipeline that combines image retrieval and image generation techniques to provide a **fitting** image recommendation for a given news article text.
 There will be a crowdsourced online event where all participating teams take part in rating the submitted image recommendations using a 5-point Likert scale.
 
 The winning team is determined by the **highest average image rating** for the articles within the evaluation dataset.
@@ -61,11 +61,11 @@ Below is the folder structure of an example ZIP file for the group 'UnstableOsmo
 
 The image format must be PNG, with target dimensions of 460x260 pixels (landscape orientation).
 This applies to both generated and retrieved images.
-If you generate the images with tools like ComfyUI and you edit them afterwards (e.g., for cropping), make sure the workflow **remains** embedded.
+If you generate images with tools like ComfyUI and then edit them afterwards (e.g., for cropping), ensure the workflow **remains** embedded.
 
 ### Complete Email Submission
 
-You will need to hand in your submissions by the deadline indicated below.
+You will need to submit your work by the deadline indicated below.
 Do that by sending an email to the address that shared the dataset download link with you.
 It must include (1) your group name, (2) a link to download your image submissions, and (3) links to the documented code of your workflow (e.g., a link to a GitHub repository with a notebook and/or a collection of scripts).
 (Please note that this is something separate from the Working Notes Paper.)
@@ -82,11 +82,11 @@ The average rank of team submissions across the featured item pool then determin
 ## Working Notes Paper
 
 As part of the challenge submission, each team is required to write a separate **Working Notes Paper** that documents and outlines their approach.
-Please look at the [online paper template](https://drive.google.com/drive/folders/1DNhxIeACfsmg6rrdgQZ22BbRtYE8ioYI) for more information.
+Please refer to the [online paper template](https://drive.google.com/drive/folders/1DNhxIeACfsmg6rrdgQZ22BbRtYE8ioYI) for additional information.
 
 We encourage open and reproducible science.
 We ask each team to share their codebase and workflows.
-Please use the examples in the [designated folder](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows) to structure your code and make a pull request to contriubte your workflow.
+Please use the examples in the [designated folder](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows) to structure your code and make a pull request to contribute your workflow.
 
 Furthermore, we ask each group to include and refer to the following papers in their Working Notes Paper:
 
