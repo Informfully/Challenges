@@ -1,7 +1,7 @@
 # NewsImages at MediaEval 2025
 
 README file for the data overview and expected submission of the NewsImages Challenge at MediaEval 2025.
-Please see the official [MediaEval 2025 website](https://multimediaeval.github.io/editions/2025/tasks/newsimages) for the full task description and the event registration.
+Please refer to the official [MediaEval 2025 website](https://multimediaeval.github.io/editions/2025/tasks/newsimages) for the full task description and event registration details.
 
 ## Task Summary
 
@@ -10,8 +10,8 @@ Given a randomly selected article, the goal is to build a pipeline for (1) image
 There will be a crowdsourced online event where all participating teams take part in rating the submitted image recommendations using a 5-point Likert scale.
 
 The winning team is determined by the **highest average image rating** for the articles within the selected article pool.
-The final evaluation event may only make use of subsets of the overall pool that was shared with participating teams.
-The relevant article IDs for the final evaluation will be communicated separately via email to all **registered groups**, together with the information on where to submit your results (see deadlines below).
+The final evaluation event may only utilize subsets of the overall pool shared with participating teams.
+The relevant article IDs for the final evaluation will be communicated separately via email to all registered groups, along with instructions on where to submit your results (see deadlines below).
 
 ## Data Overview
 
@@ -35,7 +35,7 @@ Image retrieval and generation have two subtasks each, a small one (using pre-de
 The articles in both the small and large tasks are part of the dataset shared with participants.
 For more details, please see the [Task Overview Paper](https://github.com/Informfully/Challenges/blob/main/newsimages25/newsimages_task_overview_paper.pdf).
 You are requested to provide **at least one** approach for both the large and the small subtasks.
-When creating a submission for the large subtask (e.g., "GEN_SD_LARGE"), please include/keep the image recommendation that this approach makes for IDs that are in the small subtask.
+When creating a submission for the large subtask (e.g., "GEN_SD_LARGE"), please include the image recommendation that this approach provides for IDs in the small subtask.
 
 You must provide a ZIP file [group_name].zip that is structured as follows:
 
@@ -47,9 +47,9 @@ Use the prefix a to indicate the type ("RET" for retrieval approach, "GEN" for i
 Your submission can include multiple approaches.
 
 Each approach must include **precisely one** image recommendation for a given article ID.
-You are allowed to give priority to generating/retrieving images for the 30 articles we pre-selected for the small task (see “subset.csv” in the dataset). **This part must be complete.**
-If you do not manage to provide 8,500 recommendations for the large task, simply share **as many** many images as possible.
-But in case there is the final evaluation set contains an article ID for which you have no recommendation, this entry gets assigned the lowest rating score.
+You are allowed to prioritize generating or retrieving images for the 30 articles we have pre-selected for the small task (see “subset.csv” in the dataset). **This part must be complete.**
+If you are unable to provide 8,500 recommendations for the large task, simply share **as many images** as possible.
+However, if the final evaluation contains an article ID for which you have no recommendation, this entry is assigned the lowest rating score.
 
 ### Example Group Submission
 
@@ -65,25 +65,25 @@ Below is the folder structure of an example ZIP file for the group 'UnstableOsmo
     |_ …
 
 If you do not want to make a separate submission for the small challenge subtask, you can simply create a copy of the submissions for the large task, omitting any irrelevant IDs, by changing only the suffix (e.g., "GEN_SD_SMALL" is based on "GEN_SD_LARGE" but only includes recommendations for IDs of the small subtask).
-Please note that approach names between the small and large subtasks cannot be shared unless it is precisely the same approach (i.e., the same image recommendations).
-If there are small variations between the two, you need to give the approach a new name and clearly document this.
+Please note that approach names between the small and large subtasks cannot be shared unless they are identical (i.e., the same image recommendations).
+If there are minor variations between the two, you should assign a new name to the approach and clearly document this.
 
 ### Required Image Format
 
 The image format must be PNG, with target dimensions of 460x260 pixels (landscape orientation).
 This applies to both generated and retrieved images.
-If you generate the images with tools like ComfyUI and you edit them afterwards (e.g., for cropping), make sure the workflow **remains** embedded.
+If you generate images with tools like ComfyUI and then edit them afterwards (e.g., for cropping), ensure the workflow **remains** embedded.
 
 ### Complete Email Submission
 
-You will need to hand in your submissions by the deadline indicated below.
+You will need to submit your work by the deadline indicated below.
 Do that by sending an email to the address that shared the dataset download link with you.
 It must include (1) your group name, (2) a link to download your image submissions, and (3) links to the documented code of your workflow (e.g., a link to a GitHub repository with a notebook and/or a collection of scripts).
 (Please note that this is something separate from the Working Notes Paper.)
 
 ### Using Original Images
 
-The final evaluation will make use of the dataset shared with participants.
+The final evaluation will utilize the dataset shared with participants.
 Therefore, the original images for all articles are known.
 It is not forbidden to leverage them for creating the retrieval/generation pipeline.
 However, in our [previous study](https://ceur-ws.org/Vol-3658/paper8.pdf), we found that the original images often have a lower image fit than retrieved or generated ones.
@@ -102,11 +102,11 @@ The average rank of team submissions across the featured item pool then determin
 ## Working Notes Paper
 
 As part of the challenge submission, each team is required to write a separate **Working Notes Paper** that documents and outlines their approach.
-Please look at the [online paper template](https://drive.google.com/drive/folders/1DNhxIeACfsmg6rrdgQZ22BbRtYE8ioYI) for more information.
+Please refer to the [online paper template](https://drive.google.com/drive/folders/1DNhxIeACfsmg6rrdgQZ22BbRtYE8ioYI) for additional information.
 
 We encourage open and reproducible science.
 We ask each team to share their codebase and workflows.
-Please use the examples in the [designated folder](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows) to structure your code and make a pull request to contriubte your workflow.
+Please use the examples in the [designated folder](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows) to structure your code and make a pull request to contribute your workflow.
 
 Furthermore, we ask each group to include and refer to the following papers in their Working Notes Paper:
 
