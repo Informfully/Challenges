@@ -59,7 +59,7 @@ Below is the folder structure of an example ZIP file for the group 'UnstableOsmo
 
 ### Required Image Format
 
-The image format must be PNG, with target dimensions of 460x260 pixels (landscape orientation).
+The image format must be PNG, with a target dimension of 460x260 pixels (in landscape orientation).
 This applies to both generated and retrieved images.
 If you generate images with tools like ComfyUI and then edit them afterwards (e.g., for cropping), ensure the workflow **remains** embedded.
 
@@ -114,15 +114,16 @@ Furthermore, we ask each group to include and refer to the following papers in t
 
 ## Deadline Summary (TBD)
 
-* Challenge announcement: January
-* Release development dataset: January
-* Release test dataset: April
-* Online evaluation: May (online)
-* Evaluation feedback: May (AoE)
-* Working Notes Paper submission: May*
-* Review deadline: June**
-* Camera-ready deadline: June (AoE).
-* MediaEval workshop: June (more information on the [registration website](TBD), in-person or online attendance required).
+* Challenge announcement: January 7
+* Release development dataset: January 14
+* Release test dataset: April 1
+* Runs due: May 1 (AoE)
+* Online evaluation: May 7-14 (Qualtrics)
+* Evaluation feedback: May 21
+* Working Notes Paper submission: May 31*
+* Review deadline: June 7**
+* Camera-ready deadline: June 14 (AoE).
+* MediaEval workshop: June 15-16, co-located with ACM ICMR 2026 (more information on the [registration website](https://multimediaeval.github.io/editions/2025), in-person or online attendance required).
 
 (*) We provide you with a review/feedback for your paper within one week of submission.
 Afterwards, you then have another week to prepare the camera-ready revision (exact deadlines will be communicated by the MediaEval organizers).
