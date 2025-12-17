@@ -65,12 +65,12 @@ Below is the folder structure of an example ZIP file for the group 'UnstableOsmo
     |_ …
 
 If you do not want to make a separate submission for the small challenge subtask, you can simply create a copy of the submissions for the large task, omitting any irrelevant IDs, by changing only the suffix (e.g., "GEN_SD_SMALL" is based on "GEN_SD_LARGE" but only includes recommendations for IDs of the small subtask).
-Please note that approach names between the small and large subtasks cannot be shared unless they are identical (i.e., the same image recommendations).
+Please note that approach names between the small and large subtasks cannot be shared unless they are identical (i.e., the same image recommendations are used).
 If there are minor variations between the two, you should assign a new name to the approach and clearly document this.
 
 ### Required Image Format
 
-The image format must be PNG, with target dimensions of 460x260 pixels (landscape orientation).
+The image format must be PNG, with a target dimension of 460x260 pixels (in landscape orientation).
 This applies to both generated and retrieved images.
 If you generate images with tools like ComfyUI and then edit them afterwards (e.g., for cropping), ensure the workflow **remains** embedded.
 
@@ -135,12 +135,12 @@ Furthermore, we ask each group to include and refer to the following papers in t
 ## Deadline Summary
 
 * Runs due: September 10 (AoE)
-* Online evaluation: September 17-24 (online)
-* Evaluation feedback: October 1 (AoE)
+* Online evaluation: September 17-24 (Qualtrics)
+* Evaluation feedback: October 1
 * Working Notes Paper submission: October 8*
 * Review deadline: October 10**
 * Camera-ready deadline: October 18 (AoE)
-* MediaEval workshop: October 25-26, co-located with ACM MM (more information on the [registration website](https://multimediaeval.github.io/editions/2025/), in-person or online attendance required).
+* MediaEval workshop: October 25-26, co-located with ACM MM 2025 (more information on the [registration website](https://multimediaeval.github.io/editions/2025), in-person or online attendance required).
 
 (*) We provide you with a review/feedback for your paper within one week of submission.
 Afterwards, you then have another week to prepare the camera-ready revision (exact deadlines will be communicated by the MediaEval organizers).
