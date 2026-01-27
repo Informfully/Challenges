@@ -56,7 +56,6 @@ Below is the folder structure of an example ZIP file for the group 'UnstableOsmo
     |  |_ …
     |_ …
 
-
 ### Required Image Format
 
 The image format must be PNG, with a target dimension of 460x260 pixels (in landscape orientation).
@@ -69,6 +68,12 @@ You will need to submit your work by the deadline indicated below.
 Do that by sending an email to the address that shared the dataset download link with you.
 It must include (1) your group name, (2) a link to download your image submissions, and (3) links to the documented code of your workflow (e.g., a link to a GitHub repository with a notebook and/or a collection of scripts).
 (Please note that this is something separate from the Working Notes Paper.)
+
+### Previous Workflow Examples
+
+We advise all teams to carefully study previous submissions.
+We share the code of all [previous workflows](https://github.com/Informfully/Challenges/tree/main/newsimages25) together with their [overview papers](https://2025.multimediaeval.com/).
+Please follow the recommendations outlines in the [Task Overview Paper](TBD) to ensure that you have a competitive run submission.
 
 ## Online Evaluation
 
@@ -115,7 +120,7 @@ Furthermore, we ask each group to include and refer to the following papers in t
 ## Deadline Summary (TBD)
 
 * Challenge announcement: January 7
-* Release development dataset: January 14
+* Release development dataset: February 1
 * Release test dataset: April 1
 * Runs due: May 1 (AoE)
 * Online evaluation: May 7-14 (Qualtrics)
@@ -132,7 +137,7 @@ It is based on your performance in the online evaluation.
 The necessary information for this part will be forwarded to you after the evaluation event has concluded.
 The Working Notes Paper **must** describe the workflows for your submissions.
 It **may** include complementary and/or alternative approaches that you tested.
-We also encourage all teams to write a separate "Quest for Insight" paper if there are interesting findings you would like to share and discuss with (for more information, see "Quest for Insight" in our challenge overview: <https://multimediaeval.github.io/editions/2025/tasks/newsimages>).
+We also encourage all teams to write a separate "Quest for Insight" paper if there are interesting findings you would like to share and discuss with (for more information, see "Quest for Insight" in our challenge overview: <https://multimediaeval.github.io/editions/2026/tasks/newsimages>).
 
 (**) We will notify each team once their paper has been reviewed; please make the necessary changes and upload a camera-ready version within one week.
 
