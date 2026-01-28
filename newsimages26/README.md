@@ -40,8 +40,10 @@ You must provide a ZIP file [group_name].zip that is structured as follows:
 
 Use the group name with which you have registered for the task.
 For each submitted approach/run, please provide a **unique name**.
-Your submission can include multiple approaches.
-Each approach must include **precisely one** image recommendation for a given article ID.
+Your submission can include multiple runs.
+Each approach must include *precisely one* image recommendation for a given article ID.
+All the runs need to be different.
+This means *no two runs can have the same image recommendation for a given article ID.*
 
 ### Example Group Submission
 
