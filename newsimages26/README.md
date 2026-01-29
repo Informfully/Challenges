@@ -70,6 +70,9 @@ Below is the folder structure of an example ZIP file for the group 'UnstableOsmo
 The image format must be PNG, with a target dimension of 460x260 pixels (in landscape orientation).
 This applies to both generated and retrieved images.
 If you generate images with tools like [ComfyUI](https://github.com/comfyanonymous/ComfyUI) and then edit them afterwards (e.g., for cropping), ensure the workflow **remains** embedded.
+We advise teams not to stretch the images.
+Consider simply rescaling the images if cropping is not an option.
+(And instead of using black bars to reframe the image, you can leave the background transparent with PNGs.)
 
 ### Complete Email Submission
 
