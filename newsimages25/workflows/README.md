@@ -1,7 +1,7 @@
 # Image Recommendation Workflows
 
 Collected workflows for all [submissions](https://github.com/Informfully/Challenges/tree/main/newsimages25/images).
-Regular papers submitted images to the benchmark, whereas insight papers did not.
+You can find a collection of all papers in the [online proceedings](https://2025.multimediaeval.com).
 
 Folders ending with "RETRIEVAL" contain workflows for image retrieval, and the "GENERATION" folders contain generated images, respectively.
 "COMBINED" includes both approaches in one workflow.
