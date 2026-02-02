@@ -144,3 +144,88 @@ class RUNS_LARGE(Enum):
     VisionX_GEN_SD = 24                             # Updated submission
     Organizers_RET_BASELINE = 22                    # Baseline
 ```
+
+## Overall Results
+
+Run ID refer to the ID shown above.
+The codebase for each team can be found in the "workflows" repository.
+Scores below are the average rating for each image of a run submission (ratings are on a 5-point Likert scale).
+The "evaluatio" folder contains scores for each single image.
+Entries are sorted by score (starting with the highest on the top).
+
+### Scores Subtask 1
+
+| Run ID | Team | Description | Type | Subtask | Score |
+| - | - | - | - | - | - |
+| 12 | CVG-IBA | CVG-IBA_VIVID | GEN | SMALL | 3.401 |
+| 9 | CVG-IBA | CVG-IBA_PromptForge | GEN | SMALL | 3.233 |
+| 34 | SELab-HCMUS | HCMUSSELab_HumanSelect | GEN | SMALL | 3.115 |
+| 22 | Headline Hunters | Headline_Hunters_BLIP | RET | SMALL | 3.096 |
+| 11 | CVG-IBA | CVG-IBA_TRACE | RET | SMALL | 3.080 |
+| 10 | CVG-IBA | CVG-IBA_SEEK | RET | SMALL | 3.074 |
+| 30 | BASELINE | BASELINE | N/A | SMALL | 3.041 |
+| 38 | SELab-HCMUS | HCMUSSELab_VanilaTitleRealistic | GEN | SMALL | 3.019 |
+| 14 | Das-RU | Das-RU_reg | RET | SMALL | 3.014 |
+| 31 | AFourP | AFourP_OPENCLIP_CLIPRERANK | RET | SMALL | 3.008 |
+| 13 | Das-RU | Das-RU_longtext | RET | SMALL | 3.006 |
+| 23 | Headline Hunters | Headline_Hunters_OpenClipExhaustive | RET | SMALL | 2.999 |
+| 37 | SELab-HCMUS | HCMUSSELab_VanilaTitleCartoon | GEN | SMALL | 2.985 |
+| 36 | SELab-HCMUS | HCMUSSELab_LLMCriticTitle | GEN | SMALL | 2.985 |
+| 17 | Das-RU | Das-RU_SDXLREF | GEN | SMALL | 2.984 |
+| 15 | Das-RU | Das-RU_SDXL | GEN | SMALL | 2.971 |
+| 16 | Das-RU | Das-RU_SDXLNEG | GEN | SMALL | 2.968 |
+| 24 | Headline Hunters | Headline_Hunters_OpenClipSelective | RET | SMALL | 2.965 |
+| 19 | ELITE_CODERS | ELITE_CODERS_CLIP | RET | SMALL | 2.964 |
+| 33 | SELab-HCMUS | HCMUSSELab_GASumRealistic | GEN | SMALL | 2.940 |
+| 21 | ELITE_CODERS | ELITE_CODERS_STABLE_DIFFUSION | GEN | SMALL | 2.896 |
+| 6 | CERTH_ITI | CERTH-ITI_RUN_6 | RET | SMALL | 2.893 |
+| 32 | SELab-HCMUS | HCMUSSELab_GASumCartoon | RET | SMALL | 2.874 |
+| 5 | CERTH_ITI | CERTH-ITI_RUN_5 | RET | SMALL | 2.861 |
+| 35 | SELab-HCMUS | HCMUSSELab_LLMCritic | GEN | SMALL | 2.858 |
+| 1 | CERTH_ITI | CERTH-ITI_RUN_1 | RET | SMALL | 2.857 |
+| 27 | DACS-UM-RTL | um-rtl_clip-vit-large-vlm_judge | RET | SMALL | 2.812 |
+| 39 | VisionX | VisionX_CLIP | RET | SMALL | 2.741 |
+| 26 | DACS-UM-RTL | um-rtl_clip-vit-large-llm_rewriting | RET | SMALL | 2.712 |
+| 18 | Das-RU | Das-RU_sec | RET | SMALL | 2.712 |
+| 4 | CERTH_ITI | CERTH-ITI_RUN_4 | RET | SMALL | 2.709 |
+| 2 | CERTH_ITI | CERTH-ITI_RUN_2 | RET | SMALL | 2.703 |
+| 28 | SSN-CSE | SSN-CSE_CLIP_KEYBERT_YFCC | RET | SMALL | 2.677 |
+| 8 | CodingSoft | CodingSoft_SDTURBO | GEN | SMALL | 2.666 |
+| 25 | DACS-UM-RTL | um-rtl_clip-vit-large-aesthetics | RET | SMALL | 2.650 |
+| 3 | CERTH_ITI | CERTH-ITI_RUN_3 | RET | SMALL | 2.645 |
+| 20 | ELITE_CODERS | ELITE_CODERS_SDXL | GEN | SMALL | 2.634 |
+| 40 | VisionX | VisionX_SD | GEN | SMALL | 2.607 |
+| 29 | SyntaxError404 | SyntaxError404_Retrieval | RET | SMALL | 2.593 |
+| 7 | CodingSoft | CodingSoft_CLIP | RET | SMALL | 1.898 |
+
+### Scores Subtask 2
+
+| Run ID | Team | Description | Type | Subtask | Score |
+| - | - | - | - | - | - |
+| 4 | CVG-IBA | CVG-IBA_PromptForge | GEN | LARGE | 3.194 |
+| 5 | CVG-IBA | CVG-IBA_TRACE | RET | LARGE | 3.114 |
+| 17 | Headline Hunters | Headline_Hunters_BLIP | RET | LARGE | 3.088 |
+| 6 | Das-RU | Das-RU_SDXL | GEN | LARGE | 3.031 |
+| 8 | Das-RU | Das-RU_SDXLREF | GEN | LARGE | 3.024 |
+| 14 | SELab-HCMUS | HCMUSSELab_LLMCriticTitle | GEN | LARGE | 2.983 |
+| 22 | BASELINE | BASELINE | N/A | LARGE | 2.956 |
+| 25 | Das-RU | Das-RU_longtext | RET | LARGE | 2.953 |
+| 7 | Das-RU | Das-RU_SDXLNEG | GEN | LARGE | 2.938 |
+| 15 | SELab-HCMUS | HCMUSSELab_VanilaTitleCartoon | GEN | LARGE | 2.927 |
+| 13 | SELab-HCMUS | HCMUSSELab_LLMCritic | GEN | LARGE | 2.923 |
+| 26 | Das-RU | Das-RU_reg | RET | LARGE | 2.916 |
+| 1 | AFourP | AFourP_OPENCLIP_CLIPRERANK | RET | LARGE | 2.902 |
+| 27 | Das-RU | Das-RU_sec | RET | LARGE | 2.893 |
+| 19 | Headline Hunters | Headline_Hunters_OpenClipSelective | RET | LARGE | 2.890 |
+| 12 | SELab-HCMUS | HCMUSSELab_GASumRealistic | GEN | LARGE | 2.861 |
+| 18 | Headline Hunters | Headline_Hunters_OpenClipExhaustive | RET | LARGE | 2.860 |
+| 16 | SELab-HCMUS | HCMUSSELab_VanilaTitleRealistic | GEN | LARGE | 2.850 |
+| 11 | SELab-HCMUS | HCMUSSELab_GASumCartoon | RET | LARGE | 2.823 |
+| 10 | ELITE_CODERS | ELITE_CODERS_SDXL | GEN | LARGE | 2.745 |
+| 3 | CodingSoft | CodingSoft_SDTURBO | GEN | LARGE | 2.684 |
+| 20 | SSN-CSE | SSN-CSE_CLIP_KEYBERT_YFCC | RET | LARGE | 2.673 |
+| 24 | VisionX | VisionX_CLIP | RET | LARGE | 2.612 |
+| 21 | SyntaxError404 | SyntaxError404_Retrieval | RET | LARGE | 2.554 |
+| 9 | ELITE_CODERS | ELITE_CODERS_CLIP | RET | LARGE | 2.443 |
+| 2 | CodingSoft | CodingSoft_CLIP | RET | LARGE | 1.933 |
+| 23 | VisionX | VisionX_SD | GEN | LARGE | 1.717 |
