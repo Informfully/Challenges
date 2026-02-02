@@ -17,7 +17,12 @@ This evaluation dataset will be shared with all **registered groups**, together 
 
 ## Data Overview
 
-The challenge data contains a CSV with the following data on news articles:
+The *training* dataset you receive includes the list of 8,500 article IDs from the 2025 iteration of the task.
+This allows you, for example, to create image recommendations for the same images and compare your approach with [last year's results](https://github.com/Informfully/Challenges/tree/main/newsimages25/images) in a prelimiary user study.
+
+The *test* dataset for the online evaluation event contains around 850 articles.
+It may include articles from the training dataset and articles from the evaluation events of previous iterations.
+Both datasets are contains a CSV with the following data on news articles:
 
 | Attribute | Description |
 | - | - |
@@ -30,16 +35,12 @@ The challenge data contains a CSV with the following data on news articles:
 Furthermore, a folder 'newsimages' containing a copy of the original thumbnails is included.
 The name of each JPG file corresponds to the 'image_id' associated with each news article.
 
-The training dataset you receive includes the list of 8,500 article IDs from the 2025 iteration of the task.
-This allows you, for example, to create image recommendations for the same images and compare your approach with [last year's results](https://github.com/Informfully/Challenges/tree/main/newsimages25/images) in a prelimiary user study.
-
 For image retrieval, we recommend using [Yahoo-Flickr Creative Commons 100 Million (YFCC100M)](https://www.multimediacommons.org).
 You are free to use any other open-source dataset, but this must be shared with us as part of your workflow submission.
 
 ## Expected Submission
 
-The final test dataset for the online evaluation event contains around 850 articles.
-It may include articles from the training dataset and articles from the evaluation events of previous iterations.
+
 Your submission can include multiple runs/approaches.
 Each approach must include *precisely one* image recommendation for a given article ID.
 (If there is no valid recommendation for a given article, the recommendation will receive a default rating score of 0.)
@@ -110,6 +111,8 @@ We encourage open and reproducible science.
 We ask each team to share their codebase and workflows.
 Please use the examples in the [designated folder](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows) to structure your code and make a pull request to contribute your workflow.
 
+Note that each team will be asked to take part in the review process of the papers on EasyChair.
+Make sure you are available between the paper submission and review deadlines (see the overview below).
 Furthermore, we ask each group to include and refer to the following papers in their Working Notes Paper:
 
 <!-- * [NewsImages in MediaEval 2026 – Automated Image Recommendations with Retrieval and Generation Techniques for News Articles](TBD), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2026 Workshop, 2026.-->
@@ -140,6 +143,7 @@ Furthermore, we ask each group to include and refer to the following papers in t
 
 * Registration opening and release train dataset: February 1
 * Release test dataset: April 1
+* Registration closes: April 24
 * Runs due: May 1 (AoE, incl. workflows to reproduce your image recommendations)
 * Online evaluation: May 7-14 (with Qualtrics, no user account required)
 * Evaluation feedback: May 21
