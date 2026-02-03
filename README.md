@@ -10,7 +10,7 @@ If you are writing a [Quest for Insight](https://multimediaeval.github.io/editio
 
 Upon successful registration, the participants are given a collection of 8,500 news articles with images (the article text is in English, from [GDELT](https://www.gdeltproject.org).
 Given a randomly selected article, the goal is to build a pipeline that combines image retrieval and image generation techniques to provide a **fitting** image recommendation for a given news article text.
-There will be a crowdsourced online event where all participating teams take part in rating the submitted image recommendations using a 5-point Likert scale.
+There will be a crowdsourced online event in which all participating teams rate the submitted image recommendations using a 5-point Likert scale.
 
 The winning team is determined by the **highest average image rating** for the articles within the evaluation dataset.
 This evaluation dataset will be shared with all **registered groups**, together with the information on where to submit your results (see deadlines below).
@@ -18,11 +18,11 @@ This evaluation dataset will be shared with all **registered groups**, together 
 ## Data Overview
 
 The *training* dataset you receive includes the list of 8,500 article IDs from the 2025 iteration of the task.
-This allows you, for example, to create image recommendations for the same images and compare your approach with [last year's results](https://github.com/Informfully/Challenges/tree/main/newsimages25/images) in a prelimiary user study.
+This allows you, for example, to create image recommendations for the same images and compare your approach with [last year's results](https://github.com/Informfully/Challenges/tree/main/newsimages25/images) in a preliminary user study.
 
 The *test* dataset for the online evaluation event contains around 850 articles.
 It may include articles from the training dataset and articles from the evaluation events of previous iterations.
-Both datasets are contains a CSV with the following data on news articles:
+Both datasets contain a CSV with the following data on news articles:
 
 | Attribute | Description |
 | - | - |
@@ -36,7 +36,7 @@ Furthermore, a folder 'newsimages' containing a copy of the original thumbnails 
 The name of each JPG file corresponds to the 'image_id' associated with each news article.
 
 For image retrieval, we recommend using [Yahoo-Flickr Creative Commons 100 Million (YFCC100M)](https://www.multimediacommons.org).
-You are free to use any other open-source dataset, but this must be shared with us as part of your workflow submission.
+You are free to use any other open-source dataset, but you must share it with us as part of your workflow submission.
 
 ## Expected Submission
 
@@ -52,7 +52,7 @@ To submit your runs, you must provide a ZIP file [group_name].zip that is struct
 
 [group_name] + _ + [approach_name] / [article_id] + _ + [group_name] + _ + [approach_name].png
 
-Use the group name with which you have registered for the task.
+Use the group name you registered with for the task.
 For each submitted approach/run, please provide a **unique name** (i.e., unique among your runs).
 
 You must hand in your workflow together with the Working Notes Papers (see deadlines below).
@@ -91,27 +91,27 @@ It must include (1) your group name, (2) a link to download your image submissio
 
 We advise all teams to carefully study previous submissions.
 We share the code of all [previous workflows](https://github.com/Informfully/Challenges/tree/main/newsimages25) together with their [overview papers](https://2025.multimediaeval.com).
-Please follow the recommendations outlines in the [Task Overview Paper (Release February)](TBD) to ensure that you have a competitive run submission.
+Please follow the recommendations outlined in the [Task Overview Paper (Release February)](TBD) to ensure that you have a competitive run submission.
 
 ## Online Evaluation
 
 Taking part in the online evaluation event is mandatory.
 During the evaluation, participating teams rate the image recommendations of other teams.
 To do that, they are being presented with a news headline and two image recommendations.
-They then need to select which image is more fitting.
-These ratings are used to calculate an overall ranking of images for each article.
+They then need to select which image is the better fit.
+These ratings are used to calculate an overall ranking for each article's images.
 The average rank of team submissions across the featured item pool then determines the overall winner of the challenge.
 
 ## Working Notes Paper
 
-As part of the challenge submission, each team is required to write a separate **Working Notes Paper** that documents and outlines their approach.
+As part of the challenge submission, each team must write a separate **Working Notes Paper** that documents and outlines their approach.
 Please refer to the [online paper template](https://drive.google.com/drive/folders/1DNhxIeACfsmg6rrdgQZ22BbRtYE8ioYI) for additional information.
 
 We encourage open and reproducible science.
 We ask each team to share their codebase and workflows.
 Please use the examples in the [designated folder](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows) to structure your code and make a pull request to contribute your workflow.
 
-Note that each team will be asked to take part in the review process of the papers on EasyChair.
+Note that each team will be asked to participate in the review process for the papers on EasyChair.
 Make sure you are available between the paper submission and review deadlines (see the overview below).
 Furthermore, we ask each group to include and refer to the following papers in their Working Notes Paper:
 
@@ -147,7 +147,7 @@ Furthermore, we ask each group to include and refer to the following papers in t
 * Runs due: May 1 (AoE, incl. workflows to reproduce your image recommendations)
 * Online evaluation: May 7-14 (with Qualtrics, no user account required)
 * Evaluation feedback: May 21
-* Working Notes Paper submission: May 31* (eith EasyChair, user account required)
+* Working Notes Paper submission: May 31* (on EasyChair, user account required)
 * Review deadline: June 7**
 * Camera-ready deadline: June 14 (AoE)
 * MediaEval workshop: June 15-16, co-located with ACM ICMR 2026 (more information on the [registration website](https://multimediaeval.github.io/editions/2026), in-person or online attendance required).
