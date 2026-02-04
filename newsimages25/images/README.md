@@ -1,17 +1,16 @@
 # NewsImages Submission Overview
 
-Please note that only the image submissions that were part of the user study are shared in this repository (30 images for subtask 1 and 20 images for subtask 2).
-The complete archive of all images (200k+) must be downloaded separately.
-It is available on the [UZH file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6) and structured as follows:
+Please note that only the image submissions that were part of the online user study are shared in this repository (30 images for subtask 1 and 20 images for subtask 2).
+The complete archive of all images (>200K) can be downloaded separately from the [file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6) and structured as follows:
 
-* **newsimages_25_v1.2.zip**: 8,500 article titles with images from GDELT (this is the final challenge dataset shared with participants)
+* **newsimages_25_v1.3.zip**: 8,500 article titles with images from GDELT (this is the final challenge dataset shared with participants)
 * **SMALL_GROUPED_BY_ARTICLE**: 30 articles, with 39 images each (group submissions for the small subtask 1, all featured in the online evaluation)
 * **LARGE_GROUPED_BY_ARTICLE**: 20 articles, with 26 images each (group submissions for the large subtask 2, all featured in the online evaluation)
 * **SMALL_GROUPED_BY_TEAM**: 39 group submissions, each covering the 30 images from the small subtask 1 (more or less identical to SMALL_GROUPED_BY_ARTICLE)
 * **LARGE_GROUPED_BY_TEAM**: 26 group submissions, each covering up to 8,500 images from the large subtask 2 (contains everything from LARGE_GROUPED_BY_ARTICLE as well as the remaining 8,450 images not featured in the evaluation)
 
-*Overview of participating teams and submitted runs.
-Generated on the basis of the evaluation script.*
+Below is an overview of all participating teams and their submitted runs for Subtask 1 and Subtask 2 (please find the image submissions in the respective 'subtask_1' and 'subtask_2' folders).
+The images are provided together with the ratings of the human evaluators (the leaderboard is shown below, the ratings can be found as CSV-files in 'evaluation').
 
 ## Participating Teams
 
@@ -64,10 +63,10 @@ IDS_LARGE = [534, 2013, 2411, 3310, 4620,
 
 ```python
 # Challenge Subtask SMALL
-# 39 runs by 12 teams (excl. baseline)
+# 39 runs by 12 teams (excl. baseline) with run ID
 # Ordering of the original survey preserved
 class RUNS_SMALL(Enum):
-    AFourP_RET_OPENCLIP_CLIPRERANK = 31              # Updated submission
+    AFourP_RET_OPENCLIP_CLIPRERANK = 31
     CERTH_ITI_RET_RUN_1 = 1
     CERTH_ITI_RET_RUN_2 = 2
     CERTH_ITI_RET_RUN_3 = 3
@@ -80,9 +79,9 @@ class RUNS_SMALL(Enum):
     CVG_IBA_GEN_VIVID = 10
     CVG_IBA_RET_SEEK = 11
     CVG_IBA_RET_TRACE = 12
-    DACS_UM_RTL_RET_clip_vit_aesthetics = 25        # Updated submission
-    DACS_UM_RTL_RET_clip_vit_llm_rewriting = 26     # Updated submission
-    DACS_UM_RTL_RET_clip_vit_vlm_judge = 27         # Updated submission
+    DACS_UM_RTL_RET_clip_vit_aesthetics = 25
+    DACS_UM_RTL_RET_clip_vit_llm_rewriting = 26
+    DACS_UM_RTL_RET_clip_vit_vlm_judge = 27
     Das_RU_GEN_SDXL = 13
     Das_RU_GEN_SDXLNEG = 14
     Das_RU_GEN_SDXLREF = 15
@@ -95,25 +94,25 @@ class RUNS_SMALL(Enum):
     Headline_Hunters_RET_BLIP = 22
     Headline_Hunters_RET_OpenClipExhaustive = 23
     Headline_Hunters_RET_OpenClipSelective = 24
-    SELab_HCMUS_GEN_GASumCartoon = 32               # Updated submission
-    SELab_HCMUS_GEN_GASumRealistic = 33             # Updated submission
-    SELab_HCMUS_GEN_HumanSelect = 34                # Updated submission
-    SELab_HCMUS_GEN_LLMCritic = 35                  # Updated submission
-    SELab_HCMUS_GEN_LLMCriticTitle = 36             # Updated submission
-    SELab_HCMUS_GEN_VanilaTitleCartoon = 37         # Updated submission
-    SELab_HCMUS_GEN_VanilaTitleRealistic = 38       # Updated submission
+    SELab_HCMUS_GEN_GASumCartoon = 32
+    SELab_HCMUS_GEN_GASumRealistic = 33
+    SELab_HCMUS_GEN_HumanSelect = 34
+    SELab_HCMUS_GEN_LLMCritic = 35
+    SELab_HCMUS_GEN_LLMCriticTitle = 36
+    SELab_HCMUS_GEN_VanilaTitleCartoon = 37
+    SELab_HCMUS_GEN_VanilaTitleRealistic = 38
     SSN_CSE_RET_CLIP_KEYBERT_YFCC = 28
     SyntaxError404_RET_Retrieval = 29
-    VisionX_RET_CLIP = 39                           # Updated submission
-    VisionX_GEN_SD = 40                             # Updated submission
-    Organizers_RET_Baseline = 30                    # Baseline
+    VisionX_RET_CLIP = 39
+    VisionX_GEN_SD = 40
+    Organizers_RET_Baseline = 30
 ```
 
 ### Subtask 2
 
 ```python
 # Challenge Subtask LARGE
-# 26 runs by 9 teams (excl. baseline)
+# 26 runs by 9 teams (excl. baseline) with run ID
 # Ordering of the original survey preserved
 class RUNS_LARGE(Enum):
     AFourP_RET_OPENCLIP_CLIPRERANK = 1
@@ -124,25 +123,25 @@ class RUNS_LARGE(Enum):
     Das_RU_GEN_SDXL = 6
     Das_RU_GEN_SDXLNEG = 7
     Das_RU_GEN_SDXLREF = 8
-    Das_RU_RET_longtext = 25                        # Updated submission
-    Das_RU_RET_reg = 26                             # Updated submission
-    Das_RU_RET_sec = 27                             # Updated submission
+    Das_RU_RET_longtext = 25
+    Das_RU_RET_reg = 26
+    Das_RU_RET_sec = 27
     ELITE_CODERS_GEN_SDXL = 9
     ELITE_CODERS_RET_CLIP = 10
     Headline_Hunters_RET_BLIP = 17
     Headline_Hunters_RET_OpenClipExhaustive = 18
     Headline_Hunters_RET_OpenClipSelective = 19
-    SELab_HCMUS_GEN_GASumCartoon = 11               # Updated submission
-    SELab_HCMUS_GEN_GASumRealistic = 12             # Updated submission
-    SELab_HCMUS_GEN_LLMCritic = 13                  # Updated submission
-    SELab_HCMUS_GEN_LLMCriticTitle = 14             # Updated submission
-    SELab_HCMUS_GEN_VanilaTitleCartoon = 15         # Updated submission
-    SELab_HCMUS_GEN_VanilaTitleRealistic = 16       # Updated submission
+    SELab_HCMUS_GEN_GASumCartoon = 11
+    SELab_HCMUS_GEN_GASumRealistic = 12
+    SELab_HCMUS_GEN_LLMCritic = 13
+    SELab_HCMUS_GEN_LLMCriticTitle = 14
+    SELab_HCMUS_GEN_VanilaTitleCartoon = 15
+    SELab_HCMUS_GEN_VanilaTitleRealistic = 16
     SSN_CSE_RET_CLIP_KEYBERT_YFCC = 20
     SyntaxError404_RET_Retrieval = 21
-    VisionX_RET_CLIP = 23                           # Updated submission
-    VisionX_GEN_SD = 24                             # Updated submission
-    Organizers_RET_BASELINE = 22                    # Baseline
+    VisionX_RET_CLIP = 23
+    VisionX_GEN_SD = 24
+    Organizers_RET_BASELINE = 22
 ```
 
 ## Overall Results
