@@ -1,6 +1,6 @@
 # NewsImages Submission Overview
 
-Please note that only the image submissions that were part of the online user study are shared in this repository (30 images for subtask 1 and 20 images for subtask 2).
+Please note that only the image submissions from the online user study are shared in this repository (30 images for subtask 1 and 20 for subtask 2).
 The complete archive of all images (>200K) can be downloaded separately from the [file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6) and structured as follows:
 
 * **newsimages_25_v1.3.zip**: 8,500 article titles with images from GDELT (this is the final challenge dataset shared with participants)
@@ -9,8 +9,8 @@ The complete archive of all images (>200K) can be downloaded separately from the
 * **SMALL_GROUPED_BY_TEAM**: 39 group submissions, each covering the 30 images from the small subtask 1 (more or less identical to SMALL_GROUPED_BY_ARTICLE)
 * **LARGE_GROUPED_BY_TEAM**: 26 group submissions, each covering up to 8,500 images from the large subtask 2 (contains everything from LARGE_GROUPED_BY_ARTICLE as well as the remaining 8,450 images not featured in the evaluation)
 
-Below is an overview of all participating teams and their submitted runs for Subtask 1 and Subtask 2 (please find the image submissions in the respective 'subtask_1' and 'subtask_2' folders).
-The images are provided together with the ratings of the human evaluators (the leaderboard is shown below, the ratings can be found as CSV-files in 'evaluation').
+Below is an overview of all participating teams and their submitted runs for Subtask 1 and Subtask 2 (please find the image submissions in the 'subtask_1' and 'subtask_2' folders, respectively).
+The images are provided with the ratings of the human evaluators (the leaderboard is shown below; the ratings are available as CSV files in 'evaluation').
 
 ## Participating Teams
 
@@ -146,11 +146,11 @@ class RUNS_LARGE(Enum):
 
 ## Overall Results
 
-Run ID refer to the ID shown above.
-The codebase for each team can be found in the "workflows" repository.
-Scores below are the average rating for each image of a run submission (ratings are on a 5-point Likert scale).
-The "evaluatio" folder contains scores for each single image.
-Entries are sorted by score (starting with the highest on the top).
+Run ID refers to the ID shown above.
+The codebase for each team is available in the "workflows" repository.
+The scores below are the average ratings for each image in a run submission (ratings are on a 5-point Likert scale).
+The "evaluation" folder contains scores for every single image.
+Entries are sorted by score (starting with the highest at the top).
 
 ### Scores Subtask 1
 
