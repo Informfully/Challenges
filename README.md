@@ -45,8 +45,9 @@ Your submission can include multiple runs/approaches.
 Each approach must include *precisely one* image recommendation for a given article ID.
 (If there is no valid recommendation for a given article, the recommendation will receive a default rating score of 0.)
 
-> Important: There is no restriction in terms of how many runs you can submit. However, all the runs need to be sufficiently different from one another.
-*No two runs can have the same image recommendation for a given article ID.*
+> Important: There is no restriction in terms of how many runs you can submit.
+However, all the runs need to be sufficiently different from one another.
+*No two runs can have the same image recommendation for a given article ID, and all images within one run must be unique.*
 
 To submit your runs, you must provide a ZIP file [group_name].zip that is structured as follows:
 
@@ -139,9 +140,9 @@ Furthermore, we ask each group to include and refer to the following papers in t
   }
   ```
 
-## Deadline Summary (TBD)
+## Deadline Summary
 
-* Registration opening and release train dataset: February 1
+* Registration opening and release train dataset: February 1 (registration mandatory, [form available online](https://docs.google.com/forms/d/e/1FAIpQLScl8mpNNuz66qiY3nglJUObdKuV8NpvrHaZYpymUW-b-mLQ4w))
 * Release test dataset: April 1
 * Registration closes: April 24
 * Runs due: May 1 (AoE, incl. workflows to reproduce your image recommendations)
@@ -150,12 +151,11 @@ Furthermore, we ask each group to include and refer to the following papers in t
 * Working Notes Paper submission: May 31* (on EasyChair, user account required)
 * Review deadline: June 7**
 * Camera-ready deadline: June 14 (AoE)
-* MediaEval workshop: June 15-16, co-located with ACM ICMR 2026 (more information on the [registration website](https://multimediaeval.github.io/editions/2026), in-person or online attendance required).
+* MediaEval workshop: June 15-16, co-located with ACM ICMR 2026 (more information on the [MediaEval website](https://multimediaeval.github.io/editions/2026), in-person or online attendance required).
 
 (*) We provide you with a review/feedback for your paper within one week of submission (by June 7).
 Afterwards, you then have another week to prepare the camera-ready revision by June 14 (exact deadlines will be communicated by the MediaEval organizers).
 Please note that your paper should include a results section that is based on your performance in the online evaluation.
-The necessary information for this part will be forwarded to you after the evaluation event has concluded on May 21.
+The necessary information for this part will be forwarded to you as part of the evaluation feedback on May 21.
 The Working Notes Paper **must** describe the workflows for your submissions.
-It **may** include complementary and/or alternative approaches that you tested.
-We also encourage all teams to write a separate "Quest for Insight" paper if there are interesting findings you would like to share and discuss with (for more information, see "Quest for Insight" in our challenge overview: <https://multimediaeval.github.io/editions/2026/tasks/newsimages>).
+It may include complementary and/or alternative approaches you tested but did not submit to the online challenge.
