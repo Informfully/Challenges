@@ -159,3 +159,5 @@ Please note that your paper should include a results section that is based on yo
 The necessary information for this part will be forwarded to you as part of the evaluation feedback on May 21.
 The Working Notes Paper **must** describe the workflows for your submissions.
 It may include complementary and/or alternative approaches you tested but did not submit to the online challenge.
+
+(**) We will notify each team once their paper has been reviewed; please make the necessary changes and upload a camera-ready version within one week.
