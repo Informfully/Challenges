@@ -40,7 +40,6 @@ You are free to use any other open-source dataset, but you must share it with us
 
 ## Expected Submission
 
-
 Your submission can include multiple runs/approaches.
 Each approach must include *precisely one* image recommendation for a given article ID.
 (If there is no valid recommendation for a given article, the recommendation will receive a default rating score of 0.)
@@ -88,7 +87,7 @@ Do that by sending an email to the address that shared the dataset download link
 It must include (1) your group name, (2) a link to download your image submissions, and (3) links to the documented code of your workflow (e.g., a link to a GitHub repository with a notebook and/or a collection of scripts).
 (Please note that this is something separate from the Working Notes Paper.)
 
-### Previous Workflow Examples
+### Image Recommendation Workflows
 
 We advise all teams to carefully study previous submissions.
 We share the code of all [previous workflows](https://github.com/Informfully/Challenges/tree/main/newsimages25) together with their [overview papers](https://2025.multimediaeval.com).
@@ -107,6 +106,7 @@ The average rank of team submissions across the featured item pool then determin
 
 As part of the challenge submission, each team must write a separate **Working Notes Paper** that documents and outlines their approach.
 Please refer to the [online paper template](https://drive.google.com/drive/folders/1DNhxIeACfsmg6rrdgQZ22BbRtYE8ioYI) for additional information.
+You can look at the [submissions from last year](https://2025.multimediaeval.com) as an example.
 
 We encourage open and reproducible science.
 We ask each team to share their codebase and workflows.
