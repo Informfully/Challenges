@@ -63,7 +63,7 @@ Please have a look at [last year's workflows](https://github.com/Informfully/Cha
 Below is the folder structure of an example ZIP file for the group 'UnstableOsmosis':
 
     UnstableOsmosis_Submission.zip
-    |_ UnstableOsmosis_FLUX
+    |_ UnstableOsmosis_ZImage
     |  |_ 117_UnstableOsmosis_ZImage.png
     |  |_ …
     |_ UnstableOsmosis_OpenCLIP
@@ -104,7 +104,7 @@ Their existing workflow, however, needs to be adapted to accomodate the changes.
 * Separate training and test sets for (with the training set being the same as in 2025).
 * You can use/combing automated means and human-in-the-loop approaches for your runs (i.e., merged the two objectives of the previous small and large subtask into one main challenge task).
 * We encourage mixing image retrieval and generation, you no longer need to separate them.
-* Image submissions for runs *must be unique* (no resuing images within one run) and *must not use any baseline image* (you can no use original images we share).
+* Image submissions for runs *must be unique* (no resuing images within one run) and *must not use any baseline image* (you can no longer use any of the original news article images in final run submissions).
 
 In addition to that, acceptance of your run is tied to the participation during the online event and taking part in the reviewing of Working Notes Papers.
 
