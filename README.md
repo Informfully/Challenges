@@ -91,22 +91,22 @@ It must include (1) your group name, (2) a link to download your image submissio
 
 We advise all teams to carefully study previous submissions.
 We share the code of all [previous workflows](https://github.com/Informfully/Challenges/tree/main/newsimages25) together with their [overview papers](https://2025.multimediaeval.com).
-Please follow the recommendations outlined in the [Task Overview Paper (Release February)](TBD) to ensure that you have a competitive run submission.
+Please follow the recommendations outlined in the [Task Overview Paper (Release February)](TBD) to ensure a competitive run submission.
 
 ### 2025 vs. 2026
 
 > Note: This section is primarily for teams that participated in the past.
-It summarized the main difference between the 2025 and 2026 iteration.
+It summarized the main difference between the 2025 and 2026 iterations.
 
-Teams that participated in earlier iterations of the challenge are welcom to enter with a new submission.
-Their existing workflow, however, needs to be adapted to accomodate the changes.
+Teams that participated in earlier iterations of the challenge are welcome to submit a new entry.
+Their existing workflow, however, needs to be adapted to accommodate the changes.
 
 * Separate training and test sets for (with the training set being the same as in 2025).
-* You can use/combing automated means and human-in-the-loop approaches for your runs (i.e., merged the two objectives of the previous small and large subtask into one main challenge task).
-* We encourage mixing image retrieval and generation, you no longer need to separate them.
-* Image submissions for runs *must be unique* (no resuing images within one run) and *must not use any baseline image* (you can no longer use any of the original news article images in final run submissions).
+* You can use/combine automated means and human-in-the-loop approaches for your runs (i.e., merge the two objectives of the previous small and large subtasks into one main challenge task).
+* We encourage mixing image retrieval and generation; you no longer need to separate them.
+* Image submissions for runs *must be unique* (no reusing images within one run) and *must not use any baseline image* (you can no longer use any of the original news article images in final run submissions).
 
-In addition to that, acceptance of your run is tied to the participation during the online event and taking part in the reviewing of Working Notes Papers.
+In addition, acceptance of your run is tied to participation in the online event and to taking part in the review of Working Notes Papers.
 
 ## Online Evaluation
 
