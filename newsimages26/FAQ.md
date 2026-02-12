@@ -12,7 +12,7 @@
 ## Guides, Tutorials, and Support
 
 * Please look at the [2025 GitHub repository](https://github.com/Informfully/Challenges/tree/main/newsimages25), the [2025 workshop proceedings](https://2025.multimediaeval.com), and/or do a web search before sending us your question.
-* The support and everything is done on Discord (you have received the invite code together with the confirmation of your team registration).
+* The support and everything is done on Discord/Slack (TBD; the details will be sent to all registered teams).
 
 ## Your Paper Submission
 
