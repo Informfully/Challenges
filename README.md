@@ -35,7 +35,7 @@ Both datasets contain a CSV with the following data on news articles:
 Furthermore, a folder 'newsimages' containing a copy of the original thumbnails is included.
 The name of each JPG file corresponds to the 'image_id' associated with each news article.
 
-For image retrieval, we recommend using [Yahoo-Flickr Creative Commons 100 Million (YFCC100M)](https://www.multimediacommons.org).
+For image retrieval, we recommend using [Yahoo-Flickr Creative Commons 100 Million (YFCC100M)](https://www.multimediacommons.org) or [Public Domain 12 Million (PD12M)](https://huggingface.co/datasets/Spawning/PD12M).
 You are free to use any other open source dataset, but you must share it with us as part of your workflow submission.
 
 ## Expected Submission
@@ -91,7 +91,7 @@ It must include (1) your group name, (2) a link to download your image submissio
 
 We advise all teams to carefully study previous submissions.
 We share the code of all [previous workflows](https://github.com/Informfully/Challenges/tree/main/newsimages25) together with their [overview papers](https://2025.multimediaeval.com).
-Please follow the recommendations outlined in the [Task Overview Paper (Release February)](TBD) to ensure a competitive run submission.
+Please follow the recommendations outlined in the [Task Overview Paper (Release February)](https://github.com/Informfully/Challenges/blob/main/newsimages26/newsimages_task_overview_paper.pdf) to ensure a competitive run submission.
 
 ### 2025 vs. 2026
 
