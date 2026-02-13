@@ -36,7 +36,7 @@ Furthermore, a folder 'newsimages' containing a copy of the original thumbnails 
 The name of each JPG file corresponds to the 'image_id' associated with each news article.
 
 For image retrieval, we recommend using [Yahoo-Flickr Creative Commons 100 Million (YFCC100M)](https://www.multimediacommons.org).
-You are free to use any other open-source dataset, but you must share it with us as part of your workflow submission.
+You are free to use any other open source dataset, but you must share it with us as part of your workflow submission.
 
 ## Expected Submission
 
@@ -124,7 +124,7 @@ Please refer to the [online paper template](https://drive.google.com/drive/folde
 You can look at the [submissions from last year](https://2025.multimediaeval.com) as an example.
 
 We encourage open and reproducible science.
-We ask each team to share their codebase and workflows.
+Therefore, ask each team to share their codebase/workflows, and rely exclusively on open source/open weights models.
 Please use the examples in the [designated folder](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows) to structure your code and make a pull request to contribute your workflow.
 
 Note that each team will be asked to participate in the review process for the papers on EasyChair.
