@@ -124,14 +124,22 @@ Please refer to the [online paper template](https://drive.google.com/drive/folde
 You can look at the [submissions from last year](https://2025.multimediaeval.com) as an example.
 
 We encourage open and reproducible science.
-Therefore, ask each team to share their codebase/workflows, and rely exclusively on open source/open weights models.
+Therefore, ask each team to share their codebase/workflows and rely exclusively on open-source/open-weighted models.
 Please use the examples in the [designated folder](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows) to structure your code and make a pull request to contribute your workflow.
 
 Note that each team will be asked to participate in the review process for the papers on EasyChair.
 Make sure you are available between the paper submission and review deadlines (see the overview below).
 Furthermore, we ask each group to include and refer to the following papers in their Working Notes Paper:
 
-<!-- * [NewsImages in MediaEval 2026 – Automated Image Recommendations with Retrieval and Generation Techniques for News Articles](TBD), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2026 Workshop, 2026.-->
+* [NewsImages in MediaEval 2026 – Automated Image Recommendations with Retrieval and Generation Techniques for News Articles](https://github.com/Informfully/Challenges/blob/main/newsimages26/newsimages_task_overview_paper.pdf), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2026 Workshop, 2026.
+  ```tex
+  @inproceedings{heitz2026newsimages,
+  title={NewsImages in MediaEval 2026 - Automated Image Recommendations with Retrieval and Generation Techniques for News Articles Thumbnails},
+  author={Heitz, Lucien and Sotic, Bruno N. and Katamjani, Ali A. and Bi, Qi and Bakker, Bram and Rossetto, Luca and Kamps, Jaap},
+  booktitle={Working Notes Proceedings of the MediaEval 2026 Workshop},
+  year={2026}
+  }
+  ```
 
 * [NewsImages in MediaEval 2025 – Comparing Image Retrieval and Generation for News Articles](https://2025.multimediaeval.com/paper1.pdf), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2025 Workshop, 2025.
 
