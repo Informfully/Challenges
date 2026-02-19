@@ -29,6 +29,7 @@ Both datasets contain a CSV with the following data on news articles:
 | article_id | ID of news article. |
 | article_url | Original URL of the news article. |
 | article_title | Title of the news article (may include lead). |
+| article_category | Category of the news article. |
 | image_id | ID of news image (we provide a copy of the image). |
 | image_url | Original URL of the news image. |
 
