@@ -3,14 +3,13 @@
 Please note that only the image submissions from the online user study are shared in this repository (30 images for subtask 1 and 20 for subtask 2).
 The complete archive of all images (>200K) can be downloaded separately from the [file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6) and structured as follows:
 
-* **newsimages_25_v1.3.zip**: 8,500 article titles with images from GDELT (this is the final challenge dataset shared with participants)
 * **SMALL_GROUPED_BY_ARTICLE**: 30 articles, with 39 images each (group submissions for the small subtask 1, all featured in the online evaluation)
 * **LARGE_GROUPED_BY_ARTICLE**: 20 articles, with 26 images each (group submissions for the large subtask 2, all featured in the online evaluation)
 * **SMALL_GROUPED_BY_TEAM**: 39 group submissions, each covering the 30 images from the small subtask 1 (more or less identical to SMALL_GROUPED_BY_ARTICLE)
 * **LARGE_GROUPED_BY_TEAM**: 26 group submissions, each covering up to 8,500 images from the large subtask 2 (contains everything from LARGE_GROUPED_BY_ARTICLE as well as the remaining 8,450 images not featured in the evaluation)
 
 Below is an overview of all participating teams and their submitted runs for Subtask 1 and Subtask 2 (please find the image submissions in the 'subtask_1' and 'subtask_2' folders, respectively).
-The images are provided with the ratings of the human evaluators (the leaderboard is shown below; the ratings are available as CSV files in 'evaluation').
+The images are accompanied by ratings from human evaluators (the leaderboard is shown below; the ratings are available as CSV files in 'evaluation').
 
 ## Participating Teams
 
