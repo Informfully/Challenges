@@ -19,6 +19,7 @@ This evaluation dataset will be shared with all **registered groups**, together 
 
 The *training* dataset you receive includes the list of 8,500 article IDs from the 2025 iteration of the task.
 This allows you, for example, to create image recommendations for the same images and compare your approach with [last year's results](https://github.com/Informfully/Challenges/tree/main/newsimages25/images) in a preliminary user study.
+(To that end, the test dataset includes a copy of all image IDs used in the 2025 survey.)
 
 The *test* dataset for the online evaluation event contains around 850 articles.
 It may include articles from the training dataset and articles from the evaluation events of previous iterations.
@@ -29,7 +30,6 @@ Both datasets contain a CSV with the following data on news articles:
 | article_id | ID of news article. |
 | article_url | Original URL of the news article. |
 | article_title | Title of the news article (may include lead). |
-| article_category | Category of the news article. |
 | image_id | ID of news image (we provide a copy of the image). |
 
 Furthermore, a folder 'newsimages' containing a copy of the original thumbnails is included.
