@@ -31,7 +31,6 @@ Both datasets contain a CSV with the following data on news articles:
 | article_title | Title of the news article (may include lead). |
 | article_category | Category of the news article. |
 | image_id | ID of news image (we provide a copy of the image). |
-| image_url | Original URL of the news image. |
 
 Furthermore, a folder 'newsimages' containing a copy of the original thumbnails is included.
 The name of each JPG file corresponds to the 'image_id' associated with each news article.
