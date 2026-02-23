@@ -18,7 +18,7 @@ For the most up-to-date versions of the repositories, please visit the original 
 | DACS-UM-RTL | Regular | Retrieval | [GitHub](https://github.com/bulatkh/newsimages_um_rtl) | [Paper](https://2025.multimediaeval.com/paper20.pdf) |
 | Das-RU | Regular | Retrieval | [GitHub](https://github.com/BramBakker/MediaEval-image-retrieval-challenge) | [Paper](https://2025.multimediaeval.com/paper16.pdf) |
 | Das-RU | Regular | Generation | [GitHub](https://github.com/XiaomengWang-AI/MediaEval2025_NewsImage_Das-RU_GEN) | [Paper](https://2025.multimediaeval.com/paper17.pdf) |
-| ELEMENTINE | Insight | Generation | [GitHub](https://github.com/sweyy/Medival-2025) | [Paper](https://2025.multimediaeval.com/paper52.pdf) |
+| ELEMENTINE | Insight | Retrieval | [GitHub](https://github.com/hemnathd12/NewsImagesRetrieval-Mediaeval2025) | [Paper](https://2025.multimediaeval.com/paper52.pdf) |
 | ELITE_CODERS | Regular | Combined | [GitHub](https://github.com/jeeva2470041/MediaEval) | [Paper](https://2025.multimediaeval.com/paper26.pdf) |
 | Headline Hunters | Regular | Retrieval | [GitHub](https://github.com/hemnathd12/NewsImagesRetrieval-Mediaeval2025) | [Paper](https://2025.multimediaeval.com/paper46.pdf) |
 | SELab-HCMUS | Regular | Generation | [GitHub](https://github.com/NTKHarry/MediaEval2025_NewsImage.git) | [Paper](https://2025.multimediaeval.com/paper40.pdf) |
@@ -26,4 +26,4 @@ For the most up-to-date versions of the repositories, please visit the original 
 | SyntaxError404 | Regular | Retrieval | [GitHub](https://github.com/Informfully/Challenges/tree/main/newsimages25/workflows/SyntaxError404_RETRIEVAL) (*) | [Paper](https://2025.multimediaeval.com/paper50.pdf) |
 | VisionX | Regular | Retrieval | [GitHub](https://github.com/yuvashreeph/Mediaeval) | [Paper](https://2025.multimediaeval.com/paper12.pdf) |
 
-(*) Backup version, as the original GitHub repository was removes.
+(*) Backup version, as the original GitHub repository was removed.
