@@ -13,7 +13,7 @@ For the most up-to-date versions of the repositories, please visit the original 
 | AFourP | Regular | Retrieval | [GitHub](https://github.com/shivaaneesk/MediaEval2025) | [Paper](https://2025.multimediaeval.com/paper43.pdf) |
 | CERTH-ITI | Regular | Retrieval | [GitHub](https://github.com/IDT-ITI/NewsImages-MediaEval2025) | [Paper](https://2025.multimediaeval.com/paper11.pdf) |
 | CodingSoft | Regular | Combined | [GitHub](https://github.com/SakthiMukesh7905/Mediaeval-Newsimage) | [Paper](https://2025.multimediaeval.com/paper10.pdf) |
-| CVG-IBA | Regular | Combined | [GitHub](https://github.com/jeeva2470041/MediaEval) | [Paper](https://2025.multimediaeval.com/paper34.pdf) |
+| CVG-IBA | Regular | Combined | [GitHub](https://github.com/Informfully/Challenges/tree/main/newsimages25/workflows/CVG-IBA_COMBINED) (*) | [Paper](https://2025.multimediaeval.com/paper34.pdf) |
 | DACS-UM-RTL | Regular | Retrieval | [GitHub](https://github.com/bulatkh/newsimages_um_rtl) | [Paper](https://2025.multimediaeval.com/paper20.pdf) |
 | Das-RU | Regular | Retrieval | [GitHub](https://github.com/BramBakker/MediaEval-image-retrieval-challenge) | [Paper](https://2025.multimediaeval.com/paper16.pdf) |
 | Das-RU | Regular | Generation | [GitHub](https://github.com/XiaomengWang-AI/MediaEval2025_NewsImage_Das-RU_GEN) | [Paper](https://2025.multimediaeval.com/paper17.pdf) |
