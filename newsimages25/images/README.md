@@ -9,7 +9,7 @@ The complete archive of all images (>200K) can be downloaded separately from the
 * **LARGE_GROUPED_BY_TEAM**: 26 group submissions, each covering up to 8,500 images from the large subtask 2 (contains everything from LARGE_GROUPED_BY_ARTICLE as well as the remaining 8,450 images not featured in the evaluation)
 
 Below is an overview of all participating teams and their submitted runs for Subtask 1 and Subtask 2 (please find the image submissions in the 'subtask_1' and 'subtask_2' folders, respectively).
-The images are accompanied by ratings from human evaluators (the leaderboard is shown below; the ratings are available as CSV files in 'evaluation').
+The images are accompanied by ratings from human evaluators (the leaderboard is shown below; the ratings are available as CSV files in 'survey_results').
 
 ## Participating Teams
 
