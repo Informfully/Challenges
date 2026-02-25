@@ -16,6 +16,6 @@
 
 ## Your Paper Submission
 
-* For the challenge, we accept only open-source, fully reproducible solutions. No online services. The workflow must run locally.
+* For the challenge, we accept only open-source, fully reproducible solutions. No online services. The workflow must run locally. If you do not provide code, then we cannot accept your paper.
 * “Quest for Insight” submissions can use any resources. However, they are not able to take part in the challenge itself (no place on the leaderboard, so submission of runs).
 * We want to keep a broad scope and welcome all types of contributions (put that on the website). We encourage people to participate in the event even if they do not have a technical background.
