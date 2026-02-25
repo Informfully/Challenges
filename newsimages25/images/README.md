@@ -196,7 +196,7 @@ Entries are sorted by score (starting with the highest at the top).
 | 1-03 | CERTH_ITI | CERTH-ITI_RUN_3 | RET | SMALL | 2.645 |
 | 1-20 | ELITE_CODERS | ELITE_CODERS_SDXL | GEN | SMALL | 2.634 |
 | 1-40 | VisionX | VisionX_SD | GEN | SMALL | 2.607 |
-| 1-29 | SyntaxError404 | SyntaxError404_Retrieval | RET | SMALL | 2.593 |
+| 1-29 | SyntaxError404 | SyntaxError404_Retrieval (*) | RET | SMALL | 2.593 |
 | 1-07 | CodingSoft | CodingSoft_CLIP | RET | SMALL | 1.898 |
 
 ### Scores Subtask 2
@@ -226,7 +226,9 @@ Entries are sorted by score (starting with the highest at the top).
 | 2-03 | CodingSoft | CodingSoft_SDTURBO | GEN | LARGE | 2.684 |
 | 2-20 | SSN-CSE | SSN-CSE_CLIP_KEYBERT_YFCC | RET | LARGE | 2.673 |
 | 2-24 | VisionX | VisionX_CLIP | RET | LARGE | 2.612 |
-| 2-21 | SyntaxError404 | SyntaxError404_Retrieval | RET | LARGE | 2.554 |
+| 2-21 | SyntaxError404 | SyntaxError404_Retrieval (*) | RET | LARGE | 2.554 |
 | 2-09 | ELITE_CODERS | ELITE_CODERS_CLIP | RET | LARGE | 2.443 |
 | 2-02 | CodingSoft | CodingSoft_CLIP | RET | LARGE | 1.933 |
 | 2-23 | VisionX | VisionX_SD | GEN | LARGE | 1.717 |
+
+(*) Incomplete submission removed from the final leaderboard.
