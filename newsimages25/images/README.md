@@ -177,7 +177,7 @@ Entries are sorted by score (starting with the highest at the top).
 | 1-33 | SELab-HCMUS | HCMUSSELab_GASumRealistic | GEN | SMALL | 2.940 |
 | 1-21 | ELITE_CODERS | ELITE_CODERS_STABLE_DIFFUSION | GEN | SMALL | 2.896 |
 | 1-06 | CERTH_ITI | CERTH-ITI_RUN_6 | RET | SMALL | 2.893 |
-| 1-32 | SELab-HCMUS | HCMUSSELab_GASumCartoon | RET | SMALL | 2.874 |
+| 1-32 | SELab-HCMUS | HCMUSSELab_GASumCartoon | GEN | SMALL | 2.874 |
 | 1-05 | CERTH_ITI | CERTH-ITI_RUN_5 | RET | SMALL | 2.861 |
 | 1-35 | SELab-HCMUS | HCMUSSELab_LLMCritic | GEN | SMALL | 2.858 |
 | 1-01 | CERTH_ITI | CERTH-ITI_RUN_1 | RET | SMALL | 2.857 |
