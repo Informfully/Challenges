@@ -21,16 +21,19 @@ The *training* dataset you receive includes the list of 8,500 article IDs from t
 This allows you, for example, to create image recommendations for the same images and compare your approach with [last year's results](https://github.com/Informfully/Challenges/tree/main/newsimages25/images) in a preliminary user study.
 (To that end, the test dataset includes a copy of all image IDs used in the 2025 survey.)
 
-The *test* dataset for the online evaluation event contains around 850 articles.
-It may include articles from the training dataset and articles from the evaluation events of previous iterations.
-Both datasets contain a CSV with the following data on news articles:
+The *test* dataset for the online evaluation event contains around 800 articles.
+It is a mixed collection of English articles from [MIND](https://msnews.github.io) and from historical archives (scans of 19th- and 20th-century printed newspapers).
+We will share this together with an *evaluation* dataset.
+The difference between test and evaluation is that the test version comes without the original images.
+
+The datasets contain a CSV with the following data on news articles:
 
 | Attribute | Description |
 | - | - |
 | article_id | ID of news article. |
 | article_url | Original URL of the news article. |
 | article_title | Title of the news article (may include lead). |
-| image_id | ID of news image (we provide a copy of the image). |
+| image_id | ID of news image (we provide a copy of the image for the train and evaluation dataset). |
 
 Furthermore, a folder 'newsimages' containing a copy of the original thumbnails is included.
 The name of each JPG file corresponds to the 'image_id' associated with each news article.
@@ -103,8 +106,10 @@ Their existing workflow, however, needs to be adapted to accommodate the changes
 
 * Separate training and test sets for (with the training set being the same as in 2025).
 * You can use/combine automated means and human-in-the-loop approaches for your runs (i.e., merge the two objectives of the previous small and large subtasks into one main challenge task).
-* We encourage mixing image retrieval and generation; you no longer need to separate them.
+* Mixing of image retrieval and generation is now allowed; you no longer need to separate them.
 * Image submissions for runs *must be unique* (no reusing images within one run) and *must not use any baseline image* (you can no longer use any of the original news article images in final run submissions).
+* There are no original images available for the test dataset (your workflow must focus on text input).
+* We *encourage* the submission of non-photorealistic images.
 
 In addition, acceptance of your run is tied to participation in the online event and to taking part in the review of Working Notes Papers.
 
@@ -166,7 +171,7 @@ Furthermore, we ask each group to include and refer to the following papers in t
 ## Deadline Summary
 
 * Registration opening and release train dataset: February 1 (registration mandatory, [form available online](https://docs.google.com/forms/d/e/1FAIpQLScl8mpNNuz66qiY3nglJUObdKuV8NpvrHaZYpymUW-b-mLQ4w))
-* Release test dataset: April 1
+* Release test and evaluation dataset: April 1
 * Registration closes: April 24
 * Runs due: May 1 (AoE, incl. workflows to reproduce your image recommendations)
 * Online evaluation: May 7-14 (with Qualtrics, no user account required)
@@ -176,7 +181,7 @@ Furthermore, we ask each group to include and refer to the following papers in t
 * Camera-ready deadline: June 14 (AoE)
 * MediaEval workshop: June 15-16, co-located with ACM ICMR 2026 (more information on the [MediaEval website](https://multimediaeval.github.io/editions/2026), in-person or online attendance required).
 
-(*) We provide you with a review/feedback for your paper within one week of submission (by June 7).
+(*) We will provide you with a review/feedback on your paper within one week of submission (by June 7).
 Afterwards, you then have another week to prepare the camera-ready revision by June 14 (exact deadlines will be communicated by the MediaEval organizers).
 Please note that your paper should include a results section that is based on your performance in the online evaluation.
 The necessary information for this part will be forwarded to you as part of the evaluation feedback on May 21.
