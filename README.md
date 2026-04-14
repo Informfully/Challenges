@@ -24,7 +24,7 @@ This allows you, for example, to create image recommendations for the same image
 The *test* dataset for the online evaluation event contains around 800 articles.
 It is a mixed collection of English articles from [MIND](https://msnews.github.io) and from historical archives (scans of 19th- and 20th-century printed newspapers).
 We will share this together with an *evaluation* dataset.
-The difference between test and evaluation is that the test version comes without the original images.
+The difference between test and evaluation is that articles in the test version come without the URL and original image.
 
 The datasets contain a CSV with the following data on news articles:
 
