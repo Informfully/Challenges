@@ -1,9 +1,9 @@
 # NewsImages Submission Overview
 
-The file 'news_arciels.csv' contains a list of all articles featured in the challenge (a total of 8,450 articles, can be shared upon request).
+The file 'news_articles.csv' contains a list of all articles featured in the challenge (a total of 8,450, available upon request).
 The files 'subtask_1.csv' and 'subtask_2.csv' (see the corresponding subfolders 'subtask_1' and 'subtask_2') list the relevant article IDs that were part of the online survey (a total of 50 articles from among the 8,450 overall articles).
 
-Please note that only the image submissions from the online user study are shared in this repository (30 images for subtask 1 and 20 for subtask 2).
+Note that only the image submissions from the online user study are shared in this repository (30 images for subtask 1 and 20 for subtask 2).
 The complete archive of all images (>200K) can be downloaded separately from the [file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6) and structured as follows:
 
 * **SMALL_GROUPED_BY_ARTICLE**: 30 articles, with 39 images each (group submissions for the small subtask 1, all featured in the online evaluation).
@@ -12,7 +12,7 @@ The complete archive of all images (>200K) can be downloaded separately from the
 * **LARGE_GROUPED_BY_TEAM**: 26 group submissions, each covering up to 8,500 images from the large subtask 2 (contains everything from LARGE_GROUPED_BY_ARTICLE as well as the remaining 8,450 images not featured in the evaluation).
 
 Some teams submitted only one set of images for both subtasks combined.
-These submissions were split afterwards (separating the 50 articles from subtask 1 from the 8,450 items for subtask 2).
+These submissions were split afterward (separating the 50 articles from subtask 1 from the 8,450 items for subtask 2).
 The folders for subtask 1 are labeled 'LARGE_SUBSET' instead of 'SMALL' if they were created this way (i.e., they are a subset of the 'LARGE' submission rather than a separate 'SMALL' submission).
 
 Below is an overview of all participating teams and their submitted runs for Subtask 1 and Subtask 2 (please find the image submissions in the 'subtask_1' and 'subtask_2' folders, respectively).
