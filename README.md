@@ -24,7 +24,7 @@ This allows you, for example, to create image recommendations for the same image
 The *test* dataset for the online evaluation event contains around 800 articles.
 It is a mixed collection of English articles from [MIND](https://msnews.github.io) and from historical archives (scans of 19th- and 20th-century printed newspapers).
 We will share this together with an *evaluation* dataset.
-The difference between test and evaluation is that articles in the test version come without the URL and original image.
+The difference between test and evaluation is that articles in the test version are published without the URL or the original image.
 
 The datasets contain a CSV with the following data on news articles:
 
@@ -78,7 +78,7 @@ Below is the folder structure of an example ZIP file for the group 'UnstableOsmo
 
 The image format must be PNG, with a target dimension of 460x260 pixels (in landscape orientation).
 This applies to both generated and retrieved images.
-If you generate images with tools like [ComfyUI](https://github.com/comfyanonymous/ComfyUI) and then edit them afterwards (e.g., for cropping), ensure the workflow **remains** embedded.
+If you generate images with tools like [ComfyUI](https://github.com/comfyanonymous/ComfyUI) and then edit them afterward (e.g., for cropping), ensure the workflow **remains** embedded.
 We advise teams not to stretch the images.
 Consider simply rescaling the images if cropping is not an option.
 (And instead of using black bars to reframe the image, you can leave the background transparent with PNGs.)
@@ -104,14 +104,14 @@ It summarized the main difference between the 2025 and 2026 iterations.
 Teams that participated in earlier iterations of the challenge are welcome to submit a new entry.
 Their existing workflow, however, needs to be adapted to accommodate the changes.
 
-* Separate training, test, and eveluation sets for (with the training set being the same as in 2025).
+* Separate training, test, and evaluation sets for (with the training set being the same as in 2025).
 * You can use/combine automated means and human-in-the-loop approaches for your runs (i.e., merge the two objectives of the previous small and large subtasks into one main challenge task).
 * Mixing of image retrieval and generation is now allowed; you no longer need to separate them.
 * Image submissions for runs *must be unique* (no reusing images within one run) and *must not use any baseline image* (you can no longer use any of the original news article images in final run submissions).
 * There are no original images available for the test dataset (your workflow must focus on text input).
 * We **encourage** the submission of non-photorealistic images.
 
-In addition, acceptance of your run is tied to participation in the online evaluation event and you may be requested to taking part in the review of Working Notes Papers.
+In addition, acceptance of your run is tied to participation in the online evaluation event, and you may be requested to take part in the review of Working Notes Papers.
 
 ## Online Evaluation
 
@@ -181,12 +181,12 @@ Furthermore, we ask each group to include and refer to the following papers in t
 * MediaEval workshop: June 15-16, co-located with ACM ICMR 2026 (more information on the [MediaEval website](https://multimediaeval.github.io/editions/2026), in-person or online attendance required of at least one person per team).
 * Camera-ready deadline: June 30 (AoE)
 
-(*) We will share the results of the evaluation with all teams.
+(*) We will share the evaluation results with all teams.
 Please make sure that you add this information to your Working Notes Paper in a dedicated Results Section.
 The Working Notes Paper **must** describe the workflows for your submissions.
 It **may** include complementary and/or alternative approaches you tested but did not submit to the online challenge.
 
 (**) We will notify each team once their paper has been reviewed.
 This deadline is shortly before the workshop.
-Please make sure to priorotize and update your presentation first (in case there is relevant feedback to do so).
-You can wait with incorporating the feedback and updating your paper until after the workshop.
+Please make sure to prioritize and update your presentation first (if there is relevant feedback).
+You can wait to incorporate the feedback and update your paper until after the workshop.
