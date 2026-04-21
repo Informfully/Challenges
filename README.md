@@ -104,14 +104,14 @@ It summarized the main difference between the 2025 and 2026 iterations.
 Teams that participated in earlier iterations of the challenge are welcome to submit a new entry.
 Their existing workflow, however, needs to be adapted to accommodate the changes.
 
-* Separate training and test sets for (with the training set being the same as in 2025).
+* Separate training, test, and eveluation sets for (with the training set being the same as in 2025).
 * You can use/combine automated means and human-in-the-loop approaches for your runs (i.e., merge the two objectives of the previous small and large subtasks into one main challenge task).
 * Mixing of image retrieval and generation is now allowed; you no longer need to separate them.
 * Image submissions for runs *must be unique* (no reusing images within one run) and *must not use any baseline image* (you can no longer use any of the original news article images in final run submissions).
 * There are no original images available for the test dataset (your workflow must focus on text input).
-* We *encourage* the submission of non-photorealistic images.
+* We **encourage** the submission of non-photorealistic images.
 
-In addition, acceptance of your run is tied to participation in the online event and to taking part in the review of Working Notes Papers.
+In addition, acceptance of your run is tied to participation in the online evaluation event and you may be requested to taking part in the review of Working Notes Papers.
 
 ## Online Evaluation
 
@@ -137,6 +137,7 @@ Make sure you are available between the paper submission and review deadlines (s
 Furthermore, we ask each group to include and refer to the following papers in their Working Notes Paper:
 
 * [NewsImages in MediaEval 2026 – Automated Image Recommendations with Retrieval and Generation Techniques for News Articles](https://github.com/Informfully/Challenges/blob/main/newsimages26/newsimages_task_overview_paper.pdf), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2026 Workshop, 2026.
+
   ```tex
   @inproceedings{heitz2026newsimages,
   title={NewsImages in MediaEval 2026 - Automated Image Recommendations with Retrieval and Generation Techniques for News Articles Thumbnails},
@@ -168,24 +169,24 @@ Furthermore, we ask each group to include and refer to the following papers in t
   }
   ```
 
-## Deadline Summary
+## Deadlines Overview
 
 * Registration opening and release train dataset: February 1 (registration mandatory, [form available online](https://docs.google.com/forms/d/e/1FAIpQLScl8mpNNuz66qiY3nglJUObdKuV8NpvrHaZYpymUW-b-mLQ4w))
 * Release test and evaluation dataset: April 1
-* Registration closes: April 24
-* Runs due: May 1 (AoE, incl. workflows to reproduce your image recommendations)
-* Online evaluation: May 7-14 (with Qualtrics, no user account required)
-* Evaluation feedback: May 21
-* Working Notes Paper submission: May 31* (on EasyChair, user account required)
-* Review deadline: June 7**
-* Camera-ready deadline: June 14 (AoE)
-* MediaEval workshop: June 15-16, co-located with ACM ICMR 2026 (more information on the [MediaEval website](https://multimediaeval.github.io/editions/2026), in-person or online attendance required).
+* Runs due: May 17 (AoE, incl. workflows to reproduce your image recommendations)
+* Online evaluation: May 25-31 (with Qualtrics, no user account required)
+* Evaluation feedback: June 3*
+* Working Notes Paper submission: June 10* (on EasyChair, user account required)
+* Review deadline: June 13**
+* MediaEval workshop: June 15-16, co-located with ACM ICMR 2026 (more information on the [MediaEval website](https://multimediaeval.github.io/editions/2026), in-person or online attendance required of at least one person per team).
+* Camera-ready deadline: June 30 (AoE)
 
-(*) We will provide you with a review/feedback on your paper within one week of submission (by June 7).
-Afterwards, you then have another week to prepare the camera-ready revision by June 14 (exact deadlines will be communicated by the MediaEval organizers).
-Please note that your paper should include a results section that is based on your performance in the online evaluation.
-The necessary information for this part will be forwarded to you as part of the evaluation feedback on May 21.
+(*) We will share the results of the evaluation with all teams.
+Please make sure that you add this information to your Working Notes Paper in a dedicated Results Section.
 The Working Notes Paper **must** describe the workflows for your submissions.
-It may include complementary and/or alternative approaches you tested but did not submit to the online challenge.
+It **may** include complementary and/or alternative approaches you tested but did not submit to the online challenge.
 
-(**) We will notify each team once their paper has been reviewed; please make the necessary changes and upload a camera-ready version within one week.
+(**) We will notify each team once their paper has been reviewed.
+This deadline is shortly before the workshop.
+Please make sure to priorotize and update your presentation first (in case there is relevant feedback to do so).
+You can wait with incorporating the feedback and updating your paper until after the workshop.
