@@ -171,15 +171,17 @@ Furthermore, we ask each group to include and refer to the following papers in t
 
 ## Deadlines Overview
 
+All submission deadlines are [Anywhere on Earth](https://time.is/Anywhere_on_Earth).
+
 * Registration opening and release train dataset: February 1 (registration mandatory, [form available online](https://docs.google.com/forms/d/e/1FAIpQLScl8mpNNuz66qiY3nglJUObdKuV8NpvrHaZYpymUW-b-mLQ4w))
 * Release test and evaluation dataset: April 1
-* Runs due: May 17 (AoE, incl. workflows to reproduce your image recommendations)
+* Runs due: May 17 (incl. workflows to reproduce your image recommendations)
 * Online evaluation: May 25-31 (with Qualtrics, no user account required)
 * Evaluation feedback: June 3*
 * Working Notes Paper submission: June 10* (on EasyChair, user account required)
 * Review deadline: June 13**
 * MediaEval workshop: June 15-16, co-located with ACM ICMR 2026 (more information on the [MediaEval website](https://multimediaeval.github.io/editions/2026), in-person or online attendance required of at least one person per team).
-* Camera-ready deadline: June 30 (AoE)
+* Camera-ready deadline: June 30
 
 (*) We will share the evaluation results with all teams.
 Please make sure that you add this information to your Working Notes Paper in a dedicated Results Section.
