@@ -1,8 +1,8 @@
-MediaEval 2025 – NewsImages Task
-Team
-ELITE_CODERS
+# MediaEval 2025 – NewsImages Task
 
-1. Problem Statement
+Team ELITE_CODERS
+
+## 1. Problem Statement
 
 The MediaEval 2025 NewsImages Task focuses on recommending suitable images for news articles.
 
@@ -23,7 +23,6 @@ Naming convention:
 [article_id]_ssn-coders_clip.png   (retrieval)  
 [article_id]_ssn-coders_sdxl.png   (generation)
 
-
 Folder structure:
 
 RET_CLIP_SMALLS/  
@@ -31,8 +30,9 @@ RET_CLIP_LARGE/
 GEN_SDXL_LARGE/  
 GEN_SDXL_SMALL
 
-2. Approaches
-🔹 A. Image Retrieval (CLIP + FAISS)
+## 2. Approaches
+
+### A. Image Retrieval (CLIP + FAISS)
 
 Preprocessing
 
@@ -60,7 +60,7 @@ Resized retrieved images to 460×260 using Pillow.
 
 Saved results with required naming conventions.
 
-🔹 B. Image Generation (Stable Diffusion XL)
+### B. Image Generation (Stable Diffusion XL)
 
 Model Setup
 
@@ -68,9 +68,7 @@ Used stabilityai/stable-diffusion-xl-base-1.0 via the diffusers library.
 
 Adapted prompts from article titles and tags:
 
-"Editorial news photo illustrating: {title}. Keywords: {tags}. 
- Realistic photojournalism, no text, no watermark."
-
+"Editorial news photo illustrating: {title}. Keywords: {tags}. Realistic photojournalism, no text, no watermark."
 
 Image Generation
 
@@ -88,39 +86,32 @@ Metadata
 
 Saved prompt information in the PNG metadata for reproducibility.
 
-3. Tools & Technologies
+## 3. Tools & Technologies
 
-Python 3.10+
+* Python 3.10+
+* PyTorch – model execution
+* CLIP (ViT-B/32) – retrieval embeddings
+* FAISS – similarity search
+* Stable Diffusion XL – generative image synthesis
+* Pandas, NumPy – dataset handling
+* Pillow (PIL) – image resizing and saving
 
-PyTorch – model execution
+## 4. Execution Steps
 
-CLIP (ViT-B/32) – retrieval embeddings
-
-FAISS – similarity search
-
-Stable Diffusion XL – generative image synthesis
-
-Pandas, NumPy – dataset handling
-
-Pillow (PIL) – image resizing and saving
-
-4. Execution Steps
 Retrieval
-pip install -r requirements.txt
-python extract_features.py
-python retrieve.py
 
-
-Results → RET_CLIP_SMALL/ and RET_CLIP_LARGE/
+* pip install -r requirements.txt
+* python extract_features.py
+* python retrieve.py
+* Results → RET_CLIP_SMALL/ and RET_CLIP_LARGE/
 
 Generation
-pip install -r requirements.txt
-python generate_images.py
 
+* pip install -r requirements.txt
+* python generate_images.py
+* Results → GEN_SDXL_LARGE/
 
-Results → GEN_SDXL_LARGE/
-
-5. Final Results
+## 5. Final Results
 
 Retrieval Approach: Successfully retrieved relevant images for 8,500+ news articles, aligned with task requirements.
 

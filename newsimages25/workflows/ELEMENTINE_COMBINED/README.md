@@ -1,0 +1,105 @@
+# Workflow for MediaEval NewsImages Project
+
+## 1. Data Preparation
+
+Dataset Selection:
+Use the MediaEval NewsImages dataset (subset.csv) containing image URLs, headlines, entities, and IDs.
+
+Preprocessing:
+
+* Standardize column names.
+* Validate and clean missing/broken image URLs.
+
+## 2. Embedding Computation (CLIP)
+
+Model Loading:
+Load OpenAI’s CLIP model (ViT-B/32) along with preprocessing transforms.
+
+Compute Image Embeddings:
+
+* Download each image from the dataset.
+* Convert to CLIP-compatible tensor.
+* Compute embeddings with model.encode_image.
+* Normalize vectors for cosine similarity.
+* Store embeddings as NumPy arrays.
+
+## 3. Indexing with FAISS
+
+Index Construction: Use FAISS IndexFlatIP for efficient similarity search. Add all image embeddings to the FAISS index.
+
+Search Function:
+
+* Input: text embedding.
+* Output: top-k most similar images.
+
+## 4. Text-to-Image Retrieval
+
+OPTION 1: Retrieve Images
+
+* Encode text with CLIP
+* Normalize embedding
+* Search FAISS index
+* Display top-k retrieved images  
+
+Text Embedding
+
+* Tokenize input headline/description with CLIP.
+* Encode with model.encode_text.
+* Normalize vector.
+
+FAISS Search
+
+* Query the index.
+* Retrieve top-k closest images.
+
+Result Display: Show retrieved images with their ID and headline.
+
+## 5. Text-to-Image Generation (Stable Diffusion)
+
+OPTION 2: Generate Images
+
+* Pass text prompt to Stable Diffusion v1.5
+* Generate synthetic image
+* Display generated image
+
+Model Loading
+
+* Load Stable Diffusion v1.5 pipeline (diffusers).
+* Move to GPU (if available).
+
+Image Generation
+
+* Input: user headline/description.
+* Output: AI-generated news-style image.
+
+Result Display: Render generated image with caption.
+
+## 6. Streamlit User Interface
+
+Input: Text area for headline/description.
+
+Buttons: Retrieve Images, Generate New Image.
+
+State Management: Use st.session_state to persist retrieval & generation results.
+
+Output Panels
+
+* Retrieved images (side-by-side layout).
+* Generated image (single large display).
+
+Validation
+
+* Prevent empty queries.
+* Fallback for missing images.
+
+## 7. Error Handling & Optimization
+
+* Timeouts & Failures: Handle broken URLs or network failures with zero-vector fallback.
+* Caching: Cache CLIP model, FAISS index, and embeddings to reduce recomputation.
+* Performance: Normalize embeddings for cosine similarity. Use GPU acceleration if available.
+
+## 8. Final Deliverable
+
+* App Name → MediaEval NewsImages Demo (CLIP + FAISS + Stable Diffusion)
+* Features: Retrieve visually relevant images from dataset and generate new synthetic images from headlines.
+* Outcome: A hybrid system that demonstrates both retrieval-based media search and AI-powered content generation.

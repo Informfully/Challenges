@@ -6,7 +6,7 @@ You can find all papers in the [online proceedings](https://2025.multimediaeval.
 Folders ending with "RETRIEVAL" contain workflows for image retrieval, and "GENERATION" contains generated images.
 "COMBINED" combines both approaches into a single workflow.
 
-For the most up-to-date versions of the repositories, please visit the original code repositories linked below:
+For the most up-to-date versions of the code, please visit the original repositories linked below:
 
 | Team | Type | Workflow | Codebase | Paper | Run IDs (*) |
 | - | - | - | - | - | - |
