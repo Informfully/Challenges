@@ -94,7 +94,7 @@ It must include (1) your group name, (2) a link to download your image submissio
 
 We advise all teams to carefully study previous submissions.
 We share the code of all [previous workflows](https://github.com/Informfully/Challenges/tree/main/newsimages25) together with their [overview papers](https://2025.multimediaeval.com).
-Please follow the recommendations outlined in the [Task Overview Paper (Release February)](https://github.com/Informfully/Challenges/blob/main/newsimages26/newsimages_task_overview_paper.pdf) to ensure a competitive run submission.
+Please follow the recommendations outlined in the [Task Overview Paper (Release February)](https://github.com/Informfully/Challenges/blob/main/newsimages26/newsimages26_task_overview_paper.pdf) to ensure a competitive run submission.
 
 ### 2025 vs. 2026
 
@@ -136,7 +136,7 @@ Note that each team will be asked to participate in the review process for the p
 Make sure you are available between the paper submission and review deadlines (see the overview below).
 Furthermore, we ask each group to include and refer to the following papers in their Working Notes Paper:
 
-* [NewsImages in MediaEval 2026 – Automated Image Recommendations with Retrieval and Generation Techniques for News Articles](https://github.com/Informfully/Challenges/blob/main/newsimages26/newsimages_task_overview_paper.pdf), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2026 Workshop, 2026.
+* [NewsImages in MediaEval 2026 – Automated Image Recommendations with Retrieval and Generation Techniques for News Articles](https://github.com/Informfully/Challenges/blob/main/newsimages26/newsimages26_task_overview_paper.pdf), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2026 Workshop, 2026.
 
   ```tex
   @inproceedings{heitz2026newsimages,
