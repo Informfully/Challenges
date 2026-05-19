@@ -4,7 +4,7 @@ Collected workflows for all [submissions](https://github.com/Informfully/Challen
 
 For the most up-to-date versions of the code, please visit the original repositories linked below:
 
-| Team | Codebase | Paper | Run IDs (*) |
+| Team | Codebase | Paper | Run IDs |
 | - | - | - | - |
 | AIINS-01 | [GitHub](https://github.com/sawalee0811/newsimages-2026-cs5262-gc) | TBD | TBD |
 | CERTH-ITI | [GitHub](https://github.com/IDT-ITI/actor-critic-image-generation) | TBD | TBD |
