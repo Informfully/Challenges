@@ -11,7 +11,7 @@ For the most up-to-date versions of the code, please visit the original reposito
 | FAST-DS | [GitHub](https://github.com/MuhammadSyyed/newsimages) | TBD | TBD |
 | FAST-MS | [GitHub](https://github.com/Aqsa-khan-Jadoon/MediaEval-2026-NewsImages) | TBD | TBD |
 | NewsWeavers | [GitHub](https://github.com/runzeliuzh/news-editorial-image-generation) | TBD | TBD |
-| TEAM-A++ | TBD | TBD | TBD |
+| TEAM-A++ | [GitHub](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows/TEAM-A%2B%2B) | TBD | TBD |
 | UAmsterdam (*) | [GitHub](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows/UAmsterdam) | TBD | TBD |
 
 (*) Baseline submission of the organizers that is not part of the final leaderboard and ranking.
