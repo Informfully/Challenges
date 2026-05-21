@@ -175,8 +175,8 @@ All submission deadlines are [Anywhere on Earth](https://time.is/Anywhere_on_Ear
 
 * Registration opening and release train dataset: February 1 (registration mandatory, [form available online](https://docs.google.com/forms/d/e/1FAIpQLScl8mpNNuz66qiY3nglJUObdKuV8NpvrHaZYpymUW-b-mLQ4w))
 * Release test and evaluation dataset: April 1
-* Runs due: May 17 (incl. workflows to reproduce your image recommendations)
-* Online evaluation: May 25-31 (with Qualtrics, no user account required)
+* Runs due: May 25 (incl. workflows to reproduce your image recommendations)
+* Online evaluation: May 27-31 (with Qualtrics, no user account required)
 * Evaluation feedback: June 3*
 * Working Notes Paper submission: June 10* (on EasyChair, user account required)
 * Review deadline: June 13**
