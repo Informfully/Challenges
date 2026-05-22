@@ -18,7 +18,7 @@ This evaluation dataset will be shared with all **registered groups**, together 
 
 ## Data Overview
 
-The *training* dataset you receive includes the list of 8,500 article IDs from the 2025 iteration of the task.
+The *training* dataset you receive includes all articles from the 2025 iteration of the task.
 This allows you, for example, to create image recommendations for the same images and compare your approach with [last year's results](https://github.com/Informfully/Challenges/tree/main/newsimages25/images) in a preliminary user study.
 (To that end, the test dataset includes a copy of all image IDs used in the 2025 survey.)
 
