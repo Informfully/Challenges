@@ -10,9 +10,10 @@ If you are writing a [Quest for Insight](https://multimediaeval.github.io/editio
 
 Upon successful registration, the participants are given a collection of 8,500 news articles with images (the article text is in English, from [GDELT](https://www.gdeltproject.org).
 Given a randomly selected article, the goal is to build a pipeline that combines image retrieval and image generation techniques to provide a **fitting** image recommendation for a given news article text.
-There will be a crowdsourced online event in which all participating teams rate the submitted image recommendations using a 5-point Likert scale.
+There will be a crowdsourced online event in which all participating teams rate the submitted image recommendations on a 5-point Likert scale.
 
-The winning team is determined by the **highest average image rating** for the articles within the evaluation dataset.
+The winning team is determined by the **highest average image rating** achieved during the online event.
+A total of 40 articles from the evaluation dataset are featured.
 This evaluation dataset will be shared with all **registered groups**, together with the information on where to submit your results (see deadlines below).
 
 ## Data Overview
