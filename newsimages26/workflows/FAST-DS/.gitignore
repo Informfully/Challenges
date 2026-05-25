@@ -1,0 +1,9 @@
+artifacts/
+__pycache__/
+*.jpg
+*.png
+*env/
+.DS_Store
+.env
+*.pyc
+*.zip
