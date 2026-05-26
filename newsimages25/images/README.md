@@ -1,4 +1,4 @@
-# NewsImages Submission Overview
+# NewsImages 2025 - Submission Overview
 
 The file 'news_articles.csv' contains a list of all articles featured in the challenge (a total of 8,450, available upon request).
 The files 'subtask_1.csv' and 'subtask_2.csv' (see the corresponding subfolders 'subtask_1' and 'subtask_2') list the relevant article IDs that were part of the online survey (a total of 50 articles from among the 8,450 overall articles).
