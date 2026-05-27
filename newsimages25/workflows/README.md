@@ -25,6 +25,7 @@ For the most up-to-date versions of the code, please visit the original reposito
 | SSN-CSE | Regular | Retrieval | [GitHub](https://github.com/Ramcharan-Swaminathan/SSN-CSE.git) | [Paper](https://2025.multimediaeval.com/paper21.pdf) | 1-28, 2-20 |
 | SyntaxError404 | Regular | Retrieval | [GitHub](https://github.com/Informfully/Challenges/tree/main/newsimages25/workflows/SyntaxError404_RETRIEVAL) (**) | [Paper](https://2025.multimediaeval.com/paper50.pdf) | 1-29, 2-21 |
 | VisionX | Regular | Retrieval | [GitHub](https://github.com/yuvashreeph/Mediaeval) | [Paper](https://2025.multimediaeval.com/paper12.pdf) | 1-39, 1-40, 2-23, 2-24 |
+| Original Images | N/A | N/A | N/A | N/A | 1-30, 2-22 |
 
 (*) The run results are available in the 'images' folder (IDs 1-30 and 2-22 are the baseline images and not listed here).
 
