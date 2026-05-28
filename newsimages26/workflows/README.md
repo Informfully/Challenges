@@ -13,7 +13,9 @@ For the most up-to-date versions of the code, please visit the original reposito
 | NewsImages (*) | [GitHub](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows/NewsImages) | TBD | 31, 32, 33 |
 | NewsWeavers | [GitHub](https://github.com/runzeliuzh/news-editorial-image-generation) | TBD | 21, 22, 23, 24 |
 | TEAM-A++ | [GitHub](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows/TEAM-A%2B%2B) | TBD | 25 |
-| UAmsterdam (*) | [GitHub](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows/UAmsterdam) | TBD | 26, 27, 28 |
+| UAmsterdam (**) | [GitHub](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows/UAmsterdam) | TBD | 26, 27, 28 |
 | Original Images | N/A | N/A | 29 |
 
-(*) Baseline submission of the organizers that is not part of the final leaderboard and ranking.
+(*) Baseline submission that covers only historic news articles. Not part of the final leaderboard.
+
+(**) Baseline submission of organizers. Not part of the final leaderboard and ranking.
