@@ -33,6 +33,8 @@ The images are accompanied by ratings from human evaluators (the leaderboard is 
 * SyntaxError404
 * VisionX
 
+<!--
+
 ## Challenge Submissions
 
 Overview of submitted runs for subtask 1 and 2.
@@ -118,12 +120,13 @@ The entries of the following lists are sorted alphabetically.
 * VisionX_GEN_SD (2-24)
 * Organizers_RET_BASELINE (2-22)
 
+-->
+
 ## Overall Results
 
-Run ID refers to the ID shown above.
-The codebase for each team is available in the "workflows" repository.
 The scores below are the average ratings for each image in a run submission (on a 5-point Likert scale).
 The "evaluation" folder contains scores for every single image.
+The codebase for each team is available in the "workflows" repository.
 Entries are sorted by score (starting with the highest at the top).
 
 ### Scores Subtask 1
@@ -136,7 +139,7 @@ Entries are sorted by score (starting with the highest at the top).
 | 1-22 | Headline Hunters | Headline_Hunters_BLIP | RET | SMALL | 3.096 |
 | 1-11 | CVG-IBA | CVG-IBA_TRACE | RET | SMALL | 3.080 |
 | 1-10 | CVG-IBA | CVG-IBA_SEEK | RET | SMALL | 3.074 |
-| 1-30 | BASELINE | BASELINE | N/A | SMALL | 3.041 |
+| 1-30 | BASELINE | Original Images | N/A | SMALL | 3.041 |
 | 1-38 | SELab-HCMUS | HCMUSSELab_VanilaTitleRealistic | GEN | SMALL | 3.019 |
 | 1-14 | Das-RU | Das-RU_reg | RET | SMALL | 3.014 |
 | 1-31 | AFourP | AFourP_OPENCLIP_CLIPRERANK | RET | SMALL | 3.008 |
@@ -181,7 +184,7 @@ Entries are sorted by score (starting with the highest at the top).
 | 2-06 | Das-RU | Das-RU_SDXL | GEN | LARGE | 3.031 |
 | 2-08 | Das-RU | Das-RU_SDXLREF | GEN | LARGE | 3.024 |
 | 2-14 | SELab-HCMUS | HCMUSSELab_LLMCriticTitle | GEN | LARGE | 2.983 |
-| 2-22 | BASELINE | BASELINE | N/A | LARGE | 2.956 |
+| 2-22 | BASELINE | Original Images | N/A | LARGE | 2.956 |
 | 2-25 | Das-RU | Das-RU_longtext | RET | LARGE | 2.953 |
 | 2-07 | Das-RU | Das-RU_SDXLNEG | GEN | LARGE | 2.938 |
 | 2-15 | SELab-HCMUS | HCMUSSELab_VanilaTitleCartoon | GEN | LARGE | 2.927 |
