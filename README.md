@@ -179,7 +179,7 @@ All submission deadlines are [Anywhere on Earth](https://time.is/Anywhere_on_Ear
 * Runs due: May 25 (incl. workflows to reproduce your image recommendations)
 * Online evaluation: May 27 to June 1 (with Qualtrics, no user account required)
 * Evaluation feedback: June 3*
-* Working Notes Paper submission: June 10* (on EasyChair, user account required)
+* Working Notes Paper submission: June 10 (on EasyChair, user account required)
 * Review deadline: June 13**
 * MediaEval workshop: June 15-16, co-located with ACM ICMR 2026 (more information on the [MediaEval website](https://multimediaeval.github.io/editions/2026), in-person or online attendance required of at least one person per team).
 * Camera-ready deadline (for both Working Notes and Quest for Insight Papers): June 30
