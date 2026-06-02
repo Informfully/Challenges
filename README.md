@@ -170,7 +170,7 @@ Furthermore, we ask each group to include and refer to the following papers in t
   }
   ```
 
-## Deadlines Overview
+## Deadline Summary
 
 All submission deadlines are [Anywhere on Earth](https://time.is/Anywhere_on_Earth).
 
