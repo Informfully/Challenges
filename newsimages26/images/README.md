@@ -34,10 +34,10 @@ The images and leaderboard will be published after the workshop together with th
 | 28 | UAmsterdam | Z-Image Caricature | Generative | - (*) |
 | 29 | BASELINE | Original Images | N/A | - (*) |
 | 30 | FAST-MS | RealVISXL | Generative | - |
-| 31 | Quest for Insight | FireRed-Image-Edit-1.1 | Hybrid | - (**) |
-| 32 | Quest for Insight | Flux.2 Klein | Hybrid | - (**) |
-| 33 | Quest for Insight | Qwen-Image-Edit-2509 | Hybrid | - (**) |
+| 31 | Insight | FireRed-Image-Edit-1.1 | Hybrid | - (**) |
+| 32 | Insight | Flux.2 Klein | Hybrid | - (**) |
+| 33 | Insight | Qwen-Image-Edit-2509 | Hybrid | - (**) |
 
-(*) Baseline approached that are not considered for the final ranking.
+(*) Baseline approaches that are not considered for the final ranking.
 
-(**) Questo for Insight approach for the historical news articles.
+(**) Quest for Insight approachs for the historical news articles that are not considered for the final ranking.
