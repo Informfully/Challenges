@@ -16,6 +16,6 @@ For the most up-to-date versions of the code, please visit the original reposito
 | UAmsterdam (**) | [GitHub](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows/UAmsterdam) | TBD | 26, 27, 28 |
 | Original Images | N/A | N/A | 29 |
 
-(*) Baseline submission that covers only historic news articles. Not part of the final leaderboard.
+(*) Baseline submission that covers only historic news articles. Not part of the final leaderboard and ranking.
 
 (**) Baseline submission of organizers. Not part of the final leaderboard and ranking.
