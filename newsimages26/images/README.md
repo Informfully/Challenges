@@ -1,6 +1,10 @@
 # NewsImages 2026 - Submission Overview
 
-The images and leaderboard will be published after the workshop together with the proceedings.
+The file 'news_articles_26.xlsx' contains a list of all articles featured in the challenge.
+The subfolder 'survey_articles' includes all group contributions to the randomly sampled articles features in the online user studies.
+Below is an overview of all participating teams and their submitted runs.
+
+> Note: The images and leaderboard will be published after the workshop together with the proceedings.
 
 | Run ID | Team | Description | Type | Score |
 | - | - | - | - | - |
