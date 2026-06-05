@@ -1,0 +1,141 @@
+GDELT1
+predictionFile	20231124_ddis-uzh/GD1_run1.tsv
+matchIn100	1415	1500
+MeanReciprocalR	100	0,53752 
+MeanRecallAt	5	0,69133
+MeanRecallAt	10	0,77867
+MeanRecallAt	50	0,90667
+MeanRecallAt	100	0,94333
+
+GDELT2
+predictionFile	20231124_ddis-uzh/GD2_run1.tsv
+matchIn100	1373	1500
+MeanReciprocalR	100	0,48754 
+MeanRecallAt	5	0,62867
+MeanRecallAt	10	0,71533
+MeanRecallAt	50	0,86400
+MeanRecallAt	100	0,91533
+
+RT
+predictionFile	20231124_ddis-uzh/rt_run1.tsv
+matchIn100	1905	3000
+MeanReciprocalR	100	0,20876 
+MeanRecallAt	5	0,28067
+MeanRecallAt	10	0,36600
+MeanRecallAt	50	0,55567
+MeanRecallAt	100	0,63500
+
+==
+
+GDELT1
+predictionFile	20231124_ddis-uzh/ddis-uzh_2.tsv
+matchIn100	1384	1500
+MeanReciprocalR	100	0,50530 
+MeanRecallAt	5	0,65133
+MeanRecallAt	10	0,73400
+MeanRecallAt	50	0,87867
+MeanRecallAt	100	0,92267
+
+GDELT2
+predictionFile	20231124_ddis-uzh/ddis-uzh_2.tsv
+matchIn100	1353	1500
+MeanReciprocalR	100	0,46849 
+MeanRecallAt	5	0,59667
+MeanRecallAt	10	0,68400
+MeanRecallAt	50	0,84933
+MeanRecallAt	100	0,90200
+
+RT
+predictionFile	20231124_ddis-uzh/ddis-uzh_2.tsv
+matchIn100	1885	3000
+MeanReciprocalR	100	0,20602 
+MeanRecallAt	5	0,27867
+MeanRecallAt	10	0,35300
+MeanRecallAt	50	0,53633
+MeanRecallAt	100	0,62833
+
+==
+
+GDELT1
+predictionFile	20231124_ddis-uzh/ddis-uzh_3.tsv
+matchIn100	1388	1500
+MeanReciprocalR	100	0,48161 
+MeanRecallAt	5	0,62200
+MeanRecallAt	10	0,71400
+MeanRecallAt	50	0,87800
+MeanRecallAt	100	0,92533
+
+GDELT2
+predictionFile	20231124_ddis-uzh/ddis-uzh_3.tsv
+matchIn100	1338	1500
+MeanReciprocalR	100	0,44056 
+MeanRecallAt	5	0,56867
+MeanRecallAt	10	0,66200
+MeanRecallAt	50	0,84200
+MeanRecallAt	100	0,89200
+
+RT
+predictionErrorCount:	[0, 3000, 0, 3000]
+predictionFile	20231124_ddis-uzh/ddis-uzh_3.tsv
+matchIn100	1636	3000
+MeanReciprocalR	100	0,15998 
+MeanRecallAt	5	0,21300
+MeanRecallAt	10	0,27600
+MeanRecallAt	50	0,45833
+MeanRecallAt	100	0,54533
+
+==
+GDELT1
+predictionFile	20231124_ddis-uzh/ddis-uzh_4.tsv
+matchIn100	1390	1500
+MeanReciprocalR	100	0,50755 
+MeanRecallAt	5	0,65667
+MeanRecallAt	10	0,74733
+MeanRecallAt	50	0,88067
+MeanRecallAt	100	0,92667
+
+GDELT2
+predictionFile	20231124_ddis-uzh/ddis-uzh_4.tsv
+matchIn100	1359	1500
+MeanReciprocalR	100	0,47480 
+MeanRecallAt	5	0,60467
+MeanRecallAt	10	0,68600
+MeanRecallAt	50	0,85400
+MeanRecallAt	100	0,90600
+
+RT
+predictionFile	20231124_ddis-uzh/ddis-uzh_4.tsv
+matchIn100	1472	3000
+MeanReciprocalR	100	0,13531 
+MeanRecallAt	5	0,19000
+MeanRecallAt	10	0,25600
+MeanRecallAt	50	0,41333
+MeanRecallAt	100	0,49067
+
+==
+GDELT1
+predictionFile	20231124_ddis-uzh/ddis-uzh_5.tsv
+matchIn100	1306	1500
+MeanReciprocalR	100	0,43519 
+MeanRecallAt	5	0,55933
+MeanRecallAt	10	0,64667
+MeanRecallAt	50	0,81733
+MeanRecallAt	100	0,87067
+
+GDELT2
+predictionFile	20231124_ddis-uzh/ddis-uzh_5.tsv
+matchIn100	1272	1500
+MeanReciprocalR	100	0,40334 
+MeanRecallAt	5	0,52467
+MeanRecallAt	10	0,61933
+MeanRecallAt	50	0,78533
+MeanRecallAt	100	0,84800
+
+RT
+predictionFile	20231124_ddis-uzh/ddis-uzh_5.tsv
+matchIn100	1522	3000
+MeanReciprocalR	100	0,13675 
+MeanRecallAt	5	0,18500
+MeanRecallAt	10	0,24333
+MeanRecallAt	50	0,41933
+MeanRecallAt	100	0,50733
