@@ -3,8 +3,9 @@
 The file 'news_articles_26.xlsx' contains a list of all articles featured in the challenge.
 The subfolder 'survey_articles' has a list of folders for the relevant article IDs that were part of the online survey (a total of 35 randomly sampled articles from among the 800 overall articles).
 
-Note that only the image submissions from the online user study are shared in this repository (35x30 images)
-The complete archive of all images (>20K) can be downloaded separately from the [file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6) and structured as follows:
+Note that only the image submissions from the online user study are shared in this repository (35x30 images).
+The complete archive of all images (>20K) can be downloaded separately from the [file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6).
+It is structured as follows:
 
 * **EXTENSION_GROUPED_BY_ARTICLE**: 35 articles, with 30 images each.
 * **EXTENSION_GROUPED_BY_TEAM**: 30 group submissions, covering up to 800 articles each.
@@ -13,7 +14,24 @@ The complete archive of all images (>20K) can be downloaded separately from the 
 Below is an overview of all participating teams and their submitted runs.
 <!-- The images are accompanied by ratings from human evaluators (the leaderboard is shown below; the ratings are available as CSV files in 'survey_results'). -->
 
+## Participating Teams
+
+* AIINS-01
+* CERTH-ITI
+* FAST-DS
+* FAST-MS
+* NewsWeavers
+* TEAM-A++
+* UAmsterdam
+
+## Overall Results
+
 > Note: The images and leaderboard will be published after the workshop together with the proceedings.
+
+The scores below are the average ratings for each image in a run submission (on a 5-point Likert scale).
+The [survey_results](https://github.com/Informfully/Challenges/tree/main/newsimages26/images/survey_results) folder contains scores for every single image.
+The codebase for each team is available in the [workflows](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows) folder.
+Entries are sorted by score (starting with the highest at the top).
 
 | Run ID | Team | Description | Type | Score |
 | - | - | - | - | - |
