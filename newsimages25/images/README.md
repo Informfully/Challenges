@@ -3,13 +3,14 @@
 The file 'news_articles_25.xlsx' contains a list of all articles featured in the challenge.
 The files 'subtask_1.csv' and 'subtask_2.csv' (see the corresponding subfolders 'subtask_1' and 'subtask_2') list the relevant article IDs that were part of the online survey (a total of 50 articles from among the 8,450 overall articles).
 
-Note that only the image submissions from the online user study are shared in this repository (30 images for subtask 1 and 20 for subtask 2).
+Note that only the image submissions from the online user study are shared in this repository (39x30 images for subtask 1 and 26x20 images for subtask 2).
 The complete archive of all images (>200K) can be downloaded separately from the [file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6) and structured as follows:
 
 * **SMALL_GROUPED_BY_ARTICLE**: 30 articles, with 39 images each (group submissions for the small subtask 1, all featured in the online evaluation).
 * **LARGE_GROUPED_BY_ARTICLE**: 20 articles, with 26 images each (group submissions for the large subtask 2, all featured in the online evaluation).
 * **SMALL_GROUPED_BY_TEAM**: 39 group submissions, each covering the 30 images from the small subtask 1.
 * **LARGE_GROUPED_BY_TEAM**: 26 group submissions, each covering up to 8,500 images from the large subtask 2 (contains everything from LARGE_GROUPED_BY_ARTICLE as well as the remaining 8,450 images not featured in the evaluation).
+* Please note that the other files in the folder are from the [NewsImages 2026](https://github.com/Informfully/Challenges/tree/main/newsimages26/images) iteration.
 
 Some teams submitted only one set of images for both subtasks combined.
 These submissions were split afterward (separating the 50 articles from subtask 1 from the 8,450 items for subtask 2).
