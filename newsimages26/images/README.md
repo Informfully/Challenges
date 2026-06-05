@@ -1,8 +1,17 @@
 # NewsImages 2026 - Submission Overview
 
 The file 'news_articles_26.xlsx' contains a list of all articles featured in the challenge.
-The subfolder 'survey_articles' includes all group contributions to the randomly sampled articles features in the online user studies.
+The subfolder 'survey_articles' has a list of folders for the relevant article IDs that were part of the online survey (a total of 35 randomly sampled articles from among the 800 overall articles).
+
+Note that only the image submissions from the online user study are shared in this repository (35x30 images)
+The complete archive of all images (>20K) can be downloaded separately from the [file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6) and structured as follows:
+
+* **EXTENSION_GROUPED_BY_ARTICLE**: 35 articles, with 30 images each.
+* **EXTENSION_GROUPED_BY_TEAM**: 30 group submissions, covering up to 800 articles each.
+* Please note that the other files in the folder are from the [NewsImages 2025](https://github.com/Informfully/Challenges/tree/main/newsimages25/images) iteration.
+
 Below is an overview of all participating teams and their submitted runs.
+<!-- The images are accompanied by ratings from human evaluators (the leaderboard is shown below; the ratings are available as CSV files in 'survey_results'). -->
 
 > Note: The images and leaderboard will be published after the workshop together with the proceedings.
 
