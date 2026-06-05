@@ -4,7 +4,8 @@ The file 'news_articles_25.xlsx' contains a list of all articles featured in the
 The files 'subtask_1.csv' and 'subtask_2.csv' (see the corresponding subfolders 'subtask_1' and 'subtask_2') list the relevant article IDs that were part of the online survey (a total of 50 articles from among the 8,450 overall articles).
 
 Note that only the image submissions from the online user study are shared in this repository (39x30 images for subtask 1 and 26x20 images for subtask 2).
-The complete archive of all images (>200K) can be downloaded separately from the [file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6) and structured as follows:
+The complete archive of all images (>200K) can be downloaded separately from the [file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6).
+It is structured as follows:
 
 * **SMALL_GROUPED_BY_ARTICLE**: 30 articles, with 39 images each (group submissions for the small subtask 1, all featured in the online evaluation).
 * **LARGE_GROUPED_BY_ARTICLE**: 20 articles, with 26 images each (group submissions for the large subtask 2, all featured in the online evaluation).
@@ -126,8 +127,8 @@ The entries of the following lists are sorted alphabetically.
 ## Overall Results
 
 The scores below are the average ratings for each image in a run submission (on a 5-point Likert scale).
-The "evaluation" folder contains scores for every single image.
-The codebase for each team is available in the "workflows" repository.
+The [survey_results](https://github.com/Informfully/Challenges/tree/main/newsimages25/images/survey_results) folder contains scores for every single image.
+The codebase for each team is available in the [workflows](https://github.com/Informfully/Challenges/tree/main/newsimages25/workflows) folder.
 Entries are sorted by score (starting with the highest at the top).
 
 ### Scores Subtask 1
