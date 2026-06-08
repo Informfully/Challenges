@@ -11,7 +11,7 @@ EasyChair Checklist:
 
 Paper Checklist:
 
-* The paper must use [the official LaTeX or Word template](https://drive.google.com/drive/folders/1DNhxIeACfsmg6rrdgQZ22BbRtYE8ioYI).
+* The paper must use [the official LaTeX or Word template](https://drive.google.com/drive/folders/16Ce2HNFvGy0AH4exB17i8RDRniXIWbpT).
 * Papers must not be longer than 5 pages, with an extra 1-2 pages for references.
 * At the end of the paper, there needs to be a statement/disclosure on the use of AI.
 * The submission must include the required references and cite relevant the NewsImages papers (3 papers in total, see [README](https://github.com/Informfully/Challenges)).
