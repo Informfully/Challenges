@@ -19,3 +19,4 @@ Paper Checklist:
 Ideally, each team has their own GitHub repository.
 If this is not the case, then please put a link to [the backup copy hosted in the Challenge repository](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows).
 * The paper must include a Results Section where you compare your run performance with the baselines (this is the information sent to you after the online survey has been completed).
+* Paper reviewers should prepare a couple of questions for the authors to discuss during the Q&A part of the presentation.
