@@ -1,4 +1,4 @@
-# NewsImages 2026 - Submission Overview
+# NewsImages 2026 - Submissions Overview
 
 The file 'news_articles_26.xlsx' contains a list of all articles featured in the challenge.
 The subfolder 'survey_articles' has a list of folders for the relevant article IDs that were part of the online survey (a total of 35 randomly sampled articles from among the 800 overall articles).
