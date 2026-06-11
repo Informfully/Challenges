@@ -1,7 +1,7 @@
 # NewsImages 2026 - Submissions Overview
 
 The file 'news_articles_26.xlsx' contains a list of all articles featured in the challenge.
-The subfolder 'survey_articles' has a list of folders for the relevant article IDs that were part of the online survey (a total of 35 randomly sampled articles from among the 800 overall articles).
+The subfolder 'survey_articles' contains folders for the relevant article IDs from the online survey (a total of 35 randomly sampled articles from among the 800 overall articles).
 
 Note that only the image submissions from the online user study are shared in this repository (35x30 images).
 The complete archive of all images (>20K) can be downloaded separately from the [file server](https://seafile.ifi.uzh.ch/d/1f14d6d4306340e082d6).
@@ -26,7 +26,7 @@ Below is an overview of all participating teams and their submitted runs.
 
 ## Overall Results
 
-> Note: The images and leaderboard will be published after the workshop together with the proceedings.
+> Note: The images and leaderboard will be published after the workshop, together with the proceedings.
 
 The scores below are the average ratings for each image in a run submission (on a 5-point Likert scale).
 The [survey_results](https://github.com/Informfully/Challenges/tree/main/newsimages26/images/survey_results) folder contains scores for every single image.
@@ -71,4 +71,4 @@ Entries are sorted by score (starting with the highest at the top).
 
 (*) Baseline approaches that are not considered for the final ranking.
 
-(**) Quest for Insight approachs for the historical news articles that are not considered for the final ranking.
+(**) Quest for Insight approaches generated for historical news articles that are not considered for the final ranking.
