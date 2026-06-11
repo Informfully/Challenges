@@ -46,7 +46,7 @@ Each entry consists of:
 2. 'RET' for retrieval approaches and 'GEN' for generative ones, and
 3. the name of the approach.
 
-Furthermore, each entry has a unique ID assigned to it for easier identification.
+Furthermore, each entry has a unique ID for easier identification.
 IDs were assigned based on when the paper was submitted (e.g., run 1-01 was from the first submitted paper for subtask 1, run 1-40 from the last one).
 The entries of the following lists are sorted alphabetically.
 
