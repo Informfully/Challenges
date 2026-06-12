@@ -140,7 +140,8 @@ Furthermore, we ask each group to include and refer to the following papers in t
 * Working Notes Paper submission: October 8*
 * Review deadline: October 10**
 * Camera-ready deadline: October 18 (AoE)
-* MediaEval workshop: October 25-26, co-located with ACM MM 2025 (more information on the [registration website](https://multimediaeval.github.io/editions/2025), in-person or online attendance required).
+* MediaEval workshop: October 25-26, co-located with ACM MM 2025 (more information on the [MediaEval website](https://multimediaeval.github.io/editions/2025), in-person or online attendance required of at least one person per team).
+**The NewsImages session takes place on October 26, 11:00-15:00 (UTC).**
 
 (*) We provide you with a review/feedback for your paper within one week of submission.
 Afterwards, you then have another week to prepare the camera-ready revision (exact deadlines will be communicated by the MediaEval organizers).
