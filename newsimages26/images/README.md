@@ -36,16 +36,16 @@ Entries are sorted by score (starting with the highest at the top).
 | Run ID | Team | Description | Type | Score |
 | - | - | - | - | - |
 | 01 | AIINS-01 | PD12MTFIDF | Retrieval | - |
-| 02 | CERTH-ITI | Run 10 | Hybrid | - |
-| 03 | CERTH-ITI | Run 1 | Hybrid | - |
-| 04 | CERTH-ITI | Run 2 | Hybrid | - |
-| 05 | CERTH-ITI | Run 3 | Hybrid | - |
-| 06 | CERTH-ITI | Run 4 | Hybrid | - |
-| 07 | CERTH-ITI | Run 5 | Hybrid | - |
-| 08 | CERTH-ITI | Run 6 | Hybrid | - |
-| 09 | CERTH-ITI | Run 7 | Hybrid | - |
-| 10 | CERTH-ITI | Run 8 | Hybrid | - |
-| 11 | CERTH-ITI | Run 9 | Hybrid | - |
+| 02 | CERTH-ITI | Run 10 | Generative | - |
+| 03 | CERTH-ITI | Run 1 | Generative | - |
+| 04 | CERTH-ITI | Run 2 | Generative | - |
+| 05 | CERTH-ITI | Run 3 | Generative | - |
+| 06 | CERTH-ITI | Run 4 | Generative | - |
+| 07 | CERTH-ITI | Run 5 | Generative | - |
+| 08 | CERTH-ITI | Run 6 | Generative | - |
+| 09 | CERTH-ITI | Run 7 | Generative | - |
+| 10 | CERTH-ITI | Run 8 | Generative | - |
+| 11 | CERTH-ITI | Run 9 | Generative | - |
 | 12 | FAST-DS | QueryForge-RX | Retrieval | - |
 | 13 | FAST-DS | QueryForge-VGQE | Retrieval | - |
 | 14 | FAST-DS | QueryForge-VGRX | Retrieval | - |
