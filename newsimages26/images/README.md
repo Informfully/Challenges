@@ -35,39 +35,39 @@ Entries are sorted by score (starting with the highest at the top).
 
 | Run ID | Team | Description | Type | Score |
 | - | - | - | - | - |
-| 01 | AIINS-01 | PD12MTFIDF | Retrieval | - |
-| 02 | CERTH-ITI | Run 10 | Generative | - |
-| 03 | CERTH-ITI | Run 1 | Generative | - |
-| 04 | CERTH-ITI | Run 2 | Generative | - |
-| 05 | CERTH-ITI | Run 3 | Generative | - |
-| 06 | CERTH-ITI | Run 4 | Generative | - |
-| 07 | CERTH-ITI | Run 5 | Generative | - |
-| 08 | CERTH-ITI | Run 6 | Generative | - |
-| 09 | CERTH-ITI | Run 7 | Generative | - |
-| 10 | CERTH-ITI | Run 8 | Generative | - |
-| 11 | CERTH-ITI | Run 9 | Generative | - |
-| 12 | FAST-DS | QueryForge-RX | Retrieval | - |
-| 13 | FAST-DS | QueryForge-VGQE | Retrieval | - |
-| 14 | FAST-DS | QueryForge-VGRX | Retrieval | - |
-| 15 | FAST-DS | QueryForge | Retrieval | - |
-| 16 | FAST-DS | VisionAnchor-R | Retrieval | - |
-| 17 | FAST-DS | VisionAnchor | Retrieval | - |
-| 18 | FAST-MS | Basic Retrieval | Retrieval | - |
-| 19 | FAST-MS | Hybrid Retrieval | Hybrid | - |
-| 20 | FAST-MS | Official Retrieval | Retrieval | - |
-| 21 | NewsWeavers | Qwen 3B Plan LoRA FLUX | Generative | - |
-| 22 | NewsWeavers | Qwen 3B Plan LoRA SDXL | Generative | - |
-| 23 | NewsWeavers | Qwen 3B Plan Prompt Zero Shot FLUX | Generative | - |
-| 24 | NewsWeavers | Qwen 3B Plan Prompt Zero Shot SDXL | Generative | - |
-| 25 | TEAM-A++ | SDXL-CFT | Generative | - |
-| 26 | UAmsterdam | Flux Black-White Caricature | Hybrid | - (*) |
-| 27 | UAmsterdam | Qwen Color Caricature | Hybrid | - (*) |
-| 28 | UAmsterdam | Z-Image Caricature | Generative | - (*) |
-| 29 | BASELINE | Original Images | N/A | - (*) |
-| 30 | FAST-MS | RealVISXL | Generative | - |
-| 31 | Insight | FireRed-Image-Edit-1.1 | N/A | - (**) |
-| 32 | Insight | Flux.2 Klein | N/A | - (**) |
-| 33 | Insight | Qwen-Image-Edit-2509 | N/A | - (**) |
+| 08 | CERTH-ITI | Run 6 | Generative | 3.616 |
+| 04 | CERTH-ITI | Run 2 | Generative | 3.517 |
+| 06 | CERTH-ITI | Run 4 | Generative | 3.431 |
+| 03 | CERTH-ITI | Run 1 | Generative | 3.429 |
+| 07 | CERTH-ITI | Run 5 | Generative | 3.379 |
+| 05 | CERTH-ITI | Run 3 | Generative | 3.362 |
+| 11 | CERTH-ITI | Run 9 | Generative | 3.355 |
+| 02 | CERTH-ITI | Run 10 | Generative | 3.350 |
+| 09 | CERTH-ITI | Run 7 | Generative | 3.300 |
+| 30 | FAST-MS | RealVISXL | Generative | 3.209 |
+| 10 | CERTH-ITI | Run 8 | Generative | 3.197 |
+| 33 | Insight | Qwen-Image-Edit-2509 | N/A | 3.085 (**) |
+| 31 | Insight | FireRed-Image-Edit-1.1 | N/A | 3.044 (**) |
+| 25 | TEAM-A++ | SDXL-CFT | Generative | 3.041 |
+| 32 | Insight | Flux.2 Klein | N/A | 2.990 (**) |
+| 23 | NewsWeavers | Qwen 3B Plan Prompt Zero Shot FLUX | Generative | 2.907 |
+| 29 | BASELINE | Original Images | N/A | 2.880 (*) |
+| 21 | NewsWeavers | Qwen 3B Plan LoRA FLUX | Generative | 2.826 |
+| 24 | NewsWeavers | Qwen 3B Plan Prompt Zero Shot SDXL | Generative | 2.636 |
+| 28 | UAmsterdam | Z-Image Caricature | Generative | 2.563 (*) |
+| 17 | FAST-DS | VisionAnchor | Retrieval | 2.390 |
+| 22 | NewsWeavers | Qwen 3B Plan LoRA SDXL | Generative | 2.331 |
+| 27 | UAmsterdam | Qwen Color Caricature | Hybrid | 2.330 (*) |
+| 15 | FAST-DS | QueryForge | Retrieval | 2.254 |
+| 16 | FAST-DS | VisionAnchor-R | Retrieval | 2.206 |
+| 18 | FAST-MS | Basic Retrieval | Retrieval | 2.205 |
+| 13 | FAST-DS | QueryForge-VGQE | Retrieval | 2.187 |
+| 12 | FAST-DS | QueryForge-RX | Retrieval | 2.176 |
+| 19 | FAST-MS | Hybrid Retrieval | Hybrid | 2.162 |
+| 20 | FAST-MS | Official Retrieval | Retrieval | 2.112 |
+| 26 | UAmsterdam | Flux Black-White Caricature | Hybrid | 1.972 (*) |
+| 14 | FAST-DS | QueryForge-VGRX | Retrieval | 1.831 |
+| 01 | AIINS-01 | PD12MTFIDF | Retrieval | 1.614 |
 
 (*) Baseline approaches that are not considered for the final ranking.
 
