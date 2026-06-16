@@ -12,7 +12,7 @@ It is structured as follows:
 * Please note that the other files in the folder are from the [NewsImages 2025](https://github.com/Informfully/Challenges/tree/main/newsimages25/images) iteration.
 
 Below is an overview of all participating teams and their submitted runs.
-<!-- The images are accompanied by ratings from human evaluators (the leaderboard is shown below; the ratings are available as CSV files in 'survey_results'). -->
+The images are accompanied by ratings from human evaluators (the leaderboard is shown below; the ratings are available as CSV files in 'survey_results').
 
 ## Participating Teams
 
