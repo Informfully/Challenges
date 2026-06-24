@@ -6,9 +6,9 @@ For the most up-to-date versions of the code, please visit the original reposito
 
 | Team | Codebase | Paper | Run IDs |
 | - | - | - | - |
-| AIINS-01 | [GitHub](https://github.com/sawalee0811/newsimages-2026-cs5262-gc) | N/A | 01 |
+| AIINS-01 | [GitHub](https://github.com/sawalee0811/newsimages-2026-cs5262-gc) | None | 01 |
 | CERTH-ITI | [GitHub](https://github.com/IDT-ITI/actor-critic-image-generation) | [Paper](https://2026.multimediaeval.com/paper20.pdf) | 02, 03, 04, 05, 06, 07, 08, 09, 10, 11 |
-| FAST-DS | [GitHub](https://github.com/MuhammadSyyed/newsimages) | N/A | 12, 13, 14, 15, 16, 17 |
+| FAST-DS | [GitHub](https://github.com/MuhammadSyyed/newsimages) | None | 12, 13, 14, 15, 16, 17 |
 | FAST-MS | [GitHub](https://github.com/Aqsa-khan-Jadoon/MediaEval-2026-NewsImages) | [Paper](https://2026.multimediaeval.com/paper22.pdf) | 18, 19, 20, 30 |
 | NewsImages (*) | [GitHub](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows/NewsImages) | [Paper](https://2026.multimediaeval.com/paper8.pdf) | 31, 32, 33 |
 | NewsWeavers | [GitHub](https://github.com/runzeliuzh/news-editorial-image-generation) | [Paper](https://2026.multimediaeval.com/paper35.pdf) | 21, 22, 23, 24 |
