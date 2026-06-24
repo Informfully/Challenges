@@ -46,10 +46,10 @@ Entries are sorted by score (starting with the highest at the top).
 | 09 | CERTH-ITI | Run 7 | Generative | 3.300 |
 | 30 | FAST-MS | RealVISXL | Generative | 3.209 |
 | 10 | CERTH-ITI | Run 8 | Generative | 3.197 |
-| 33 | Insight | Qwen-Image-Edit-2509 | N/A | 3.085 (**) |
-| 31 | Insight | FireRed-Image-Edit-1.1 | N/A | 3.044 (**) |
+| 33 | Insight | Qwen-Image-Edit-2509 | Generative | 3.085 (**) |
+| 31 | Insight | FireRed-Image-Edit-1.1 | Generative | 3.044 (**) |
 | 25 | TEAM-A++ | SDXL-CFT | Generative | 3.041 |
-| 32 | Insight | Flux.2 Klein | N/A | 2.990 (**) |
+| 32 | Insight | Flux.2 Klein | Generative | 2.990 (**) |
 | 23 | NewsWeavers | Qwen 3B Plan Prompt Zero Shot FLUX | Generative | 2.907 |
 | 29 | BASELINE | Original Images | N/A | 2.880 (*) |
 | 21 | NewsWeavers | Qwen 3B Plan LoRA FLUX | Generative | 2.826 |
