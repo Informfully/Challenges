@@ -13,8 +13,8 @@ It is structured as follows:
 * **LARGE_GROUPED_BY_TEAM**: 26 group submissions, each covering up to 8,500 images from the large subtask 2 (contains everything from LARGE_GROUPED_BY_ARTICLE as well as the remaining 8,450 images not featured in the evaluation).
 * Please note that the other files in the folder are from the [NewsImages 2026](https://github.com/Informfully/Challenges/tree/main/newsimages26/images) iteration.
 
-Some teams submitted only one set of images for both subtasks combined.
-These submissions were split afterward (separating the 50 articles from subtask 1 from the 8,450 items for subtask 2).
+Some teams submitted only one set of images and used it for both subtasks.
+These submissions were split in the archive share above (separating the 50 articles from subtask 1 from the 8,450 items for subtask 2).
 The folders for subtask 1 are labeled 'LARGE_SUBSET' instead of 'SMALL' if they were created this way (i.e., they are a subset of the 'LARGE' submission rather than a separate 'SMALL' submission).
 
 Below is an overview of all participating teams and their submitted runs for Subtask 1 and Subtask 2 (please find the image submissions in the 'subtask_1' and 'subtask_2' folders, respectively).
