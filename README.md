@@ -95,7 +95,7 @@ It must include (1) your group name, (2) a link to download your image submissio
 
 We advise all teams to carefully study previous submissions.
 We share the code of all [previous workflows](https://github.com/Informfully/Challenges/tree/main/newsimages25) together with their [overview papers](https://2025.multimediaeval.com).
-Please follow the recommendations outlined in the [Task Overview Paper (Release February)](https://github.com/Informfully/Challenges/blob/main/newsimages26/newsimages26_task_overview_paper.pdf) to ensure a competitive run submission.
+Please follow the recommendations outlined in the [Task Overview Paper](https://github.com/Informfully/Challenges/blob/main/newsimages26/newsimages26_task_overview_paper.pdf) to ensure a competitive run submission.
 
 ### 2025 vs. 2026
 

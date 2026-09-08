@@ -19,3 +19,17 @@ For the most up-to-date versions of the code, please visit the original reposito
 (*) Baseline submission that covers only historic news articles. Not part of the final leaderboard and ranking.
 
 (**) Baseline submission of organizers. Not part of the final leaderboard and ranking.
+
+If you are using any of these resources, please make sure to properly cite the paper(s) of the team as well as the NewsImages overview paper:
+
+* [NewsImages in MediaEval 2026 – Automated Image Recommendations with Retrieval and Generation Techniques for News Articles](https://github.com/Informfully/Challenges/blob/main/newsimages26/newsimages26_task_overview_paper.pdf), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2026 Workshop, 2026.
+
+  ```tex
+  @inproceedings{heitz2026newsimages,
+  title={NewsImages in MediaEval 2026 - Automated Image Recommendations with Retrieval and Generation Techniques for News Articles Thumbnails},
+  author={Heitz, Lucien and Sotic, Bruno N. and Katamjani, Ali A. and Bi, Qi and Bakker, Bram and Rossetto, Luca and Kamps, Jaap},
+  booktitle={Working Notes Proceedings of the MediaEval 2026 Workshop},
+  year={2026}
+  }
+  ```
+  
