@@ -19,6 +19,7 @@ The folders for subtask 1 are labeled 'LARGE_SUBSET' instead of 'SMALL' if they 
 
 Below is an overview of all participating teams and their submitted runs for Subtask 1 and Subtask 2 (please find the image submissions in the 'subtask_1' and 'subtask_2' folders, respectively).
 The images are accompanied by ratings from human evaluators (the leaderboard is shown below; the ratings are available as CSV files in 'survey_results').
+We also have an [extended image collection](https://github.com/Informfully/Challenges/tree/main/newsimages26/images) available with recommendations of newer workshops.
 
 ## Participating Teams
 

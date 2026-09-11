@@ -13,6 +13,7 @@ It is structured as follows:
 
 Below is an overview of all participating teams and their submitted runs.
 The images are accompanied by ratings from human evaluators (the leaderboard is shown below; the ratings are available as CSV files in 'survey_results').
+We also have a [base image collection](https://github.com/Informfully/Challenges/tree/main/newsimages26/images) available with recommendations of previous workshops.
 
 ## Participating Teams
 

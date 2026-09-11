@@ -1,7 +1,8 @@
 # Image Recommendation Workflows
 
-Collected workflows for all [submissions](https://github.com/Informfully/Challenges/tree/main/newsimages25/images).
+Collected workflows for all [image submissions](https://github.com/Informfully/Challenges/tree/main/newsimages25/images).
 You can find all papers in the [online proceedings](https://2025.multimediaeval.com).
+We also have a collection of [revised workflows](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows) available.
 
 Folders ending with "RETRIEVAL" contain workflows for image retrieval, and "GENERATION" contains generated images.
 "COMBINED" combines both approaches into a single workflow.

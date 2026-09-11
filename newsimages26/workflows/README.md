@@ -1,6 +1,8 @@
 # Image Recommendation Workflows
 
-Collected workflows for all [submissions](https://github.com/Informfully/Challenges/tree/main/newsimages26/images).
+Collected workflows for all [image submissions](https://github.com/Informfully/Challenges/tree/main/newsimages26/images).
+You can find all papers in the [online proceedings](https://2026.multimediaeval.com).
+We also have a collection of [previous workflows](https://github.com/Informfully/Challenges/tree/main/newsimages25/workflows) available.
 
 For the most up-to-date versions of the code, please visit the original repositories linked below:
 
