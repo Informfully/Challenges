@@ -19,4 +19,3 @@ Paper Checklist:
 * The submission must include the required references and cite the relevant NewsImages papers (3 papers in total, see [README](https://github.com/Informfully/Challenges)).
 * The paper must include a Results Section where you compare your run performance with the baselines (this is the information sent to you after the online survey has been completed).
 * There needs to be a link to the workflow for each of your runs. Ideally, each team has its own GitHub repository. If this is not the case, then please put a link to [the backup copy hosted in the Challenge repository](https://github.com/Informfully/Challenges/tree/main/newsimages26/workflows).
-  
