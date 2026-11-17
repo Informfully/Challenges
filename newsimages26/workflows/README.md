@@ -6,7 +6,7 @@ We also have a collection of [previous workflows](https://github.com/Informfully
 
 For the most up-to-date versions of the code, please visit the original repositories linked below:
 
-| Team | Codebase | Paper | Run IDs |
+| Team | Codebase | Paper | Run ID |
 | - | - | - | - |
 | AIINS-01 | [GitHub](https://github.com/sawalee0811/newsimages-2026-cs5262-gc) | None | 01 |
 | CERTH-ITI | [GitHub](https://github.com/IDT-ITI/actor-critic-image-generation) | [Paper](https://2026.multimediaeval.com/paper20.pdf) | 02, 03, 04, 05, 06, 07, 08, 09, 10, 11 |

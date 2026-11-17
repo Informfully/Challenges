@@ -9,7 +9,7 @@ Folders ending with "RETRIEVAL" contain workflows for image retrieval, and "GENE
 
 For the most up-to-date versions of the code, please visit the original repositories linked below:
 
-| Team | Type | Workflow | Codebase | Paper | Run IDs (*) |
+| Team | Type | Workflow | Codebase | Paper | Run ID |
 | - | - | - | - | - | - |
 | AFourP | Regular | Retrieval | [GitHub](https://github.com/shivaaneesk/MediaEval2025) | [Paper](https://2025.multimediaeval.com/paper43.pdf) | 1-31, 2-01 |
 | CERTH-ITI | Regular | Retrieval | [GitHub](https://github.com/IDT-ITI/NewsImages-MediaEval2025) | [Paper](https://2025.multimediaeval.com/paper11.pdf) | 1-01, 1-02, 1-03, 1-04, 1-05, 1-06 |
@@ -26,8 +26,8 @@ For the most up-to-date versions of the code, please visit the original reposito
 | SSN-CSE | Regular | Retrieval | [GitHub](https://github.com/Ramcharan-Swaminathan/SSN-CSE.git) | [Paper](https://2025.multimediaeval.com/paper21.pdf) | 1-28, 2-20 |
 | SyntaxError404 | Regular | Retrieval | [GitHub](https://github.com/Informfully/Challenges/tree/main/newsimages25/workflows/SyntaxError404_RETRIEVAL) (**) | [Paper](https://2025.multimediaeval.com/paper50.pdf) | 1-29, 2-21 |
 | VisionX | Regular | Retrieval | [GitHub](https://github.com/yuvashreeph/Mediaeval) | [Paper](https://2025.multimediaeval.com/paper12.pdf) | 1-39, 1-40, 2-23, 2-24 |
-| Original Images | N/A | N/A | N/A | N/A | 1-30, 2-22 |
+| Original Images (*) | N/A | N/A | N/A | N/A | 1-30, 2-22 |
 
-(*) The run results are available in the 'images' folder (IDs 1-30 and 2-22 are the baseline images and not listed here).
+(*) Baseline submission using the original images of the articles. Not part of the final leaderboard and ranking.
 
 (**) Backup version, as the original GitHub repository was removed.
