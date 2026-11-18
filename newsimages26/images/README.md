@@ -1,6 +1,7 @@
 # NewsImages 2026 - Submissions Overview
 
-The file 'news_articles_26.xlsx' contains a list of all articles featured in the challenge.
+## Dataset Overview
+
 The subfolder 'survey_articles' contains folders for the relevant article IDs from the online survey (a total of 35 randomly sampled articles from among the 800 overall articles).
 
 Note that only the image submissions from the online user study are shared in this repository (35x30 images).
@@ -15,15 +16,13 @@ Below is an overview of all participating teams and their submitted runs.
 The images are accompanied by ratings from human evaluators (the leaderboard is shown below; the ratings are available as CSV files in 'survey_results').
 We also have a [base image collection](https://github.com/Informfully/Challenges/tree/main/newsimages26/images) available with recommendations of previous workshops.
 
-## Participating Teams
+### News Articles
 
-* AIINS-01
-* CERTH-ITI
-* FAST-DS
-* FAST-MS
-* NewsWeavers
-* TEAM-A++
-* UAmsterdam
+The file [news_articles_26](https://github.com/Informfully/Challenges/blob/main/newsimages26/images/news_articles_26.xlsx) contains a list of all articles featured in the challenge.
+
+### User Ratings
+
+The folder [survey_results](https://github.com/Informfully/Challenges/tree/main/newsimages26/images/survey_results) contains all user ratings, grouped team and a complete overview file.
 
 ## Overall Results
 
