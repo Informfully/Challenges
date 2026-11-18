@@ -1,6 +1,7 @@
 # NewsImages 2025 - Submissions Overview
 
-The file 'news_articles_25.xlsx' contains a list of all articles featured in the challenge.
+## Dataset Overview
+
 The files 'subtask_1.csv' and 'subtask_2.csv' (see the corresponding subfolders 'subtask_1' and 'subtask_2') list the relevant article IDs that were part of the online survey (a total of 50 articles from among the 8,450 overall articles).
 
 Note that only the image submissions from the online user study are shared in this repository (39x30 images for subtask 1 and 26x20 images for subtask 2).
@@ -21,109 +22,13 @@ Below is an overview of all participating teams and their submitted runs for Sub
 The images are accompanied by ratings from human evaluators (the leaderboard is shown below; the ratings are available as CSV files in 'survey_results').
 We also have an [extended image collection](https://github.com/Informfully/Challenges/tree/main/newsimages26/images) available with recommendations of newer workshops.
 
-## Participating Teams
+### News Articles
 
-* AFourP
-* CERTH-ITI
-* CodingSoft
-* CVG-IBA
-* DACS-UM-RTL
-* Das-RU
-* ELITE_CODERS
-* Headline Hunters
-* SELab-HCMUS
-* SSN-CSE
-* SyntaxError404
-* VisionX
+The file [news_articles_25](https://github.com/Informfully/Challenges/blob/main/newsimages25/images/news_articles_25.xlsx) contains a list of all articles featured in the challenge.
 
-<!--
+### User Ratings
 
-## Challenge Submissions
-
-Overview of submitted runs for subtask 1 and 2.
-Each entry consists of:
-
-1. the name of the team that submitted the run,
-2. 'RET' for retrieval approaches and 'GEN' for generative ones, and
-3. the name of the approach.
-
-Furthermore, each entry has a unique ID for easier identification.
-IDs were assigned based on when the paper was submitted (e.g., run 1-01 was from the first submitted paper for subtask 1, run 1-40 from the last one).
-The entries of the following lists are sorted alphabetically.
-
-### Subtask 1
-
-* AFourP_RET_OPENCLIP_CLIPRERANK (1-31)
-* CERTH_ITI_RET_RUN_1 (1-01)
-* CERTH_ITI_RET_RUN_2 (1-02)
-* CERTH_ITI_RET_RUN_3 (1-03)
-* CERTH_ITI_RET_RUN_4 (1-04)
-* CERTH_ITI_RET_RUN_5 (1-05)
-* CERTH_ITI_RET_RUN_6 (1-06)
-* CodingSoft_GEN_SDTURBO (1-07)
-* CodingSoft_RET_CLIP (1-08)
-* CVG_IBA_GEN_PromptForge (1-09)
-* CVG_IBA_GEN_VIVID (1-10)
-* CVG_IBA_RET_SEEK (1-11)
-* CVG_IBA_RET_TRACE (1-12)
-* DACS_UM_RTL_RET_clip_vit_aesthetics (1-25)
-* DACS_UM_RTL_RET_clip_vit_llm_rewriting (1-26)
-* DACS_UM_RTL_RET_clip_vit_vlm_judge (1-27)
-* Das_RU_GEN_SDXL (1-13)
-* Das_RU_GEN_SDXLNEG (1-14)
-* Das_RU_GEN_SDXLREF (1-15)
-* Das_RU_RET_longtext (1-16)
-* Das_RU_RET_reg (1-17)
-* Das_RU_RET_sec (1-18)
-* ELITE_CODERS_GEN_SDXL (1-19)
-* ELITE_CODERS_GEN_STABLE_DIFFUSION (1-20)
-* ELITE_CODERS_RET_CLIP (1-21)
-* Headline_Hunters_RET_BLIP (1-22)
-* Headline_Hunters_RET_OpenClipExhaustive (1-23)
-* Headline_Hunters_RET_OpenClipSelective (1-24)
-* SELab_HCMUS_GEN_GASumCartoon (1-32)
-* SELab_HCMUS_GEN_GASumRealistic (1-33)
-* SELab_HCMUS_GEN_HumanSelect (1-34)
-* SELab_HCMUS_GEN_LLMCritic (1-35)
-* SELab_HCMUS_GEN_LLMCriticTitle (1-36)
-* SELab_HCMUS_GEN_VanilaTitleCartoon (1-37)
-* SELab_HCMUS_GEN_VanilaTitleRealistic (1-38)
-* SSN_CSE_RET_CLIP_KEYBERT_YFCC (1-28)
-* SyntaxError404_RET_Retrieval (1-29)
-* VisionX_RET_CLIP (1-39)
-* VisionX_GEN_SD (1-40)
-* Organizers_RET_Baseline (1-30)
-
-### Subtask 2
-
-* CodingSoft_GEN_SDTURBO (2-02)
-* CodingSoft_RET_CLIP (2-03)
-* CVG_IBA_GEN_PromptForge (2-04)
-* CVG_IBA_RET_TRACE (2-05)
-* Das_RU_GEN_SDXL (2-06)
-* Das_RU_GEN_SDXLNEG (2-07)
-* Das_RU_GEN_SDXLREF (2-08)
-* Das_RU_RET_longtext (2-25)
-* Das_RU_RET_reg (2-26)
-* Das_RU_RET_sec (2-27)
-* ELITE_CODERS_GEN_SDXL (2-09)
-* ELITE_CODERS_RET_CLIP (2-10)
-* Headline_Hunters_RET_BLIP (2-17)
-* Headline_Hunters_RET_OpenClipExhaustive (2-18)
-* Headline_Hunters_RET_OpenClipSelective (2-19)
-* SELab_HCMUS_GEN_GASumCartoon (2-11)
-* SELab_HCMUS_GEN_GASumRealistic (2-12)
-* SELab_HCMUS_GEN_LLMCritic (2-13)
-* SELab_HCMUS_GEN_LLMCriticTitle (2-14)
-* SELab_HCMUS_GEN_VanilaTitleCartoon (2-15)
-* SELab_HCMUS_GEN_VanilaTitleRealistic (2-16)
-* SSN_CSE_RET_CLIP_KEYBERT_YFCC (2-20)
-* SyntaxError404_RET_Retrieval (2-21)
-* VisionX_RET_CLIP (2-23)
-* VisionX_GEN_SD (2-24)
-* Organizers_RET_BASELINE (2-22)
-
--->
+The folder [survey_results](https://github.com/Informfully/Challenges/tree/main/newsimages25/images/survey_results) contains all user ratings, grouped team and a complete overview file.
 
 ## Overall Results
 
