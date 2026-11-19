@@ -47,7 +47,7 @@ Entries are sorted by score (starting with the highest at the top).
 | 1-22 | Headline Hunters | Headline_Hunters_BLIP | RET | SMALL | 3.096 |
 | 1-11 | CVG-IBA | CVG-IBA_TRACE | RET | SMALL | 3.080 |
 | 1-10 | CVG-IBA | CVG-IBA_SEEK | RET | SMALL | 3.074 |
-| 1-30 | BASELINE | Original Images | N/A | SMALL | 3.041 |
+| 1-30 | BASELINE | Original Images | N/A | SMALL | 3.041 (*) |
 | 1-38 | SELab-HCMUS | HCMUSSELab_VanilaTitleRealistic | GEN | SMALL | 3.019 |
 | 1-14 | Das-RU | Das-RU_reg | RET | SMALL | 3.014 |
 | 1-31 | AFourP | AFourP_OPENCLIP_CLIPRERANK | RET | SMALL | 3.008 |
@@ -79,7 +79,7 @@ Entries are sorted by score (starting with the highest at the top).
 | 1-03 | CERTH_ITI | CERTH-ITI_RUN_3 | RET | SMALL | 2.645 |
 | 1-20 | ELITE_CODERS | ELITE_CODERS_SDXL | GEN | SMALL | 2.634 |
 | 1-40 | VisionX | VisionX_SD | GEN | SMALL | 2.607 |
-| 1-29 | SyntaxError404 | SyntaxError404_Retrieval (*) | RET | SMALL | 2.593 |
+| 1-29 | SyntaxError404 | SyntaxError404_Retrieval | RET | SMALL | 2.593 (**) |
 | 1-07 | CodingSoft | CodingSoft_CLIP | RET | SMALL | 1.898 |
 
 ### Scores Subtask 2
@@ -92,7 +92,7 @@ Entries are sorted by score (starting with the highest at the top).
 | 2-06 | Das-RU | Das-RU_SDXL | GEN | LARGE | 3.031 |
 | 2-08 | Das-RU | Das-RU_SDXLREF | GEN | LARGE | 3.024 |
 | 2-14 | SELab-HCMUS | HCMUSSELab_LLMCriticTitle | GEN | LARGE | 2.983 |
-| 2-22 | BASELINE | Original Images | N/A | LARGE | 2.956 |
+| 2-22 | BASELINE | Original Images | N/A | LARGE | 2.956 (*) |
 | 2-25 | Das-RU | Das-RU_longtext | RET | LARGE | 2.953 |
 | 2-07 | Das-RU | Das-RU_SDXLNEG | GEN | LARGE | 2.938 |
 | 2-15 | SELab-HCMUS | HCMUSSELab_VanilaTitleCartoon | GEN | LARGE | 2.927 |
@@ -109,9 +109,25 @@ Entries are sorted by score (starting with the highest at the top).
 | 2-03 | CodingSoft | CodingSoft_SDTURBO | GEN | LARGE | 2.684 |
 | 2-20 | SSN-CSE | SSN-CSE_CLIP_KEYBERT_YFCC | RET | LARGE | 2.673 |
 | 2-24 | VisionX | VisionX_CLIP | RET | LARGE | 2.612 |
-| 2-21 | SyntaxError404 | SyntaxError404_Retrieval (*) | RET | LARGE | 2.554 |
+| 2-21 | SyntaxError404 | SyntaxError404_Retrieval | RET | LARGE | 2.554 (**) |
 | 2-09 | ELITE_CODERS | ELITE_CODERS_CLIP | RET | LARGE | 2.443 |
 | 2-02 | CodingSoft | CodingSoft_CLIP | RET | LARGE | 1.933 |
 | 2-23 | VisionX | VisionX_SD | GEN | LARGE | 1.717 |
 
-(*) Incomplete submission removed from the final leaderboard.
+(*) Baseline approaches that are not considered for the final ranking.
+
+(**) Incomplete submission removed from the final leaderboard.
+
+If you are using any of these resources, please make sure to properly cite the paper(s) of the team as well as the NewsImages overview paper:
+
+* [NewsImages in MediaEval 2025 – Comparing Image Retrieval and Generation for News Articles](https://github.com/Informfully/Challenges/blob/main/documents/newsimages_task_overview_paper.pdf), Heitz *et al.*, Working Notes Proceedings of the MediaEval 2025 Workshop, 2025.
+
+  ```tex
+  @inproceedings{heitz2025newsimages,
+  title={NewsImages in MediaEval 2025 – Comparing Image Retrieval and Generation for News Articles},
+  author={Heitz, Lucien and Rossetto, Luca and Kille, Benjamin and Lommatzsch, Andreas and Elahi, Mehdi and Dang-Nguyen, Duc-Tien},
+  booktitle={Working Notes Proceedings of the MediaEval 2025 Workshop},
+  year={2025}
+  }
+  ```
+  
