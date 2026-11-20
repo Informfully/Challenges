@@ -69,7 +69,7 @@ Entries are sorted by score (starting with the highest at the top).
 | 14 | FAST-DS | QueryForge-VGRX | Retrieval | 1.831 |
 | 01 | AIINS-01 | PD12MTFIDF | Retrieval | 1.614 |
 
-(*) Baseline approaches that are not considered for the final ranking.
+(*) Baseline submissions that are not considered for the final ranking.
 
 (**) Quest for Insight approaches generated for historical news articles that are not considered for the final ranking.
 
@@ -85,4 +85,3 @@ If you are using any of these resources, please make sure to properly cite the p
   year={2026}
   }
   ```
-  

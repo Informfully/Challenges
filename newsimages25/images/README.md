@@ -114,7 +114,7 @@ Entries are sorted by score (starting with the highest at the top).
 | 2-02 | CodingSoft | CodingSoft_CLIP | RET | LARGE | 1.933 |
 | 2-23 | VisionX | VisionX_SD | GEN | LARGE | 1.717 |
 
-(*) Baseline approaches that are not considered for the final ranking.
+(*) Baseline submissions that are not considered for the final ranking.
 
 (**) Incomplete submission removed from the final leaderboard.
 
@@ -130,4 +130,3 @@ If you are using any of these resources, please make sure to properly cite the p
   year={2025}
   }
   ```
-  
